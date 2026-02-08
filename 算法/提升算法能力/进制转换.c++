@@ -12,6 +12,7 @@ int main (){
     int m=0;
     while(x){
         now=x%r;
+        //对取余结果进行判定，涉及到进制转换中的字母问题
         if(now<=9){
             ans[m++]='0'+now;
             // cout<<(char)('0'+now)<<endl;
@@ -25,6 +26,7 @@ int main (){
         cout<<0<<endl;
         return 0;
     }
+    //逆序输出
     for(int i=m-1;i>=0;i--){
         cout<<ans[i];
     }

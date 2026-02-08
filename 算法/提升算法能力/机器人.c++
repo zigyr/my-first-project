@@ -10,6 +10,7 @@
 using namespace std;
 int dx[4]={1,0,-1,0};
 int dy[4]={0,-1,0,1};
+//感觉从x轴正半轴 逆时针 转
 //x+1,y x轴正半轴0
 //x,y-1 y轴负半轴1
 //x-1,y x轴负半轴2
@@ -21,11 +22,12 @@ int main (){
     int n;
     cin>>n;
     int nowx=0,nowy=0;
-    int d=3;
+    int d=0;//对应初始方向
     string op;
     int x;
     while(n--){
         cin>>op>>x;
+        //右1左3中间取反夹着2
         if(op[0]=='b'){
             //循环取反
             d=(d+2)%4;
