@@ -4,6 +4,9 @@ using namespace std;
 
 void test01(){
     set<int>s;
+    // 通过pair 利用set容器的底层特性
+    // 如果插入成功 pair变量的bool为true
+    // 否则为false
     pair<set<int>::iterator,bool> ret=s.insert(10);//first
     if(ret.second){
         cout<<"success"<<endl;

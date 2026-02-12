@@ -13,9 +13,9 @@ void test01(){
     map<int,int>m;
     //key值自动排序
     m.insert(pair<int,int>(1,10));
-    m.insert(pair<int,int>(3,30));
-    m.insert(pair<int,int>(2,20));
-    m.insert(pair<int,int>(4,40));
+    m.insert(make_pair(3,30));
+    m.insert(make_pair(2,20));
+    m.insert(make_pair(4,40));
     printMap(m);
 
     map<int,int>m2(m);
