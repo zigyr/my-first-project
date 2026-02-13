@@ -13,7 +13,7 @@ void dfs(int cnt, int s){
         return;
     }
     if(s == sum/3) return dfs(cnt + 1, 0);
-    for( int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++){
         if(!vis[i]){
             vis[i] = true;
             dfs(cnt, s + a[i]);

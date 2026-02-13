@@ -16,6 +16,7 @@ int main (){
     string name;
     for (int i = 0; i < n; i++){
         cin >> id >> name;
+        // 二维map还可以这样玩
         info[id][name]++;
     }
     for (map<int, map<string, int>>::iterator it = info.begin(); it != info.end(); it++){
