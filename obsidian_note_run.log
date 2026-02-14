@@ -178,3 +178,397 @@
 🎉 处理完成！共创建 22 个原子笔记（总计 22 行数据）
 2026-02-12 14:28:36,287 - INFO - ✅ 同时更新 21 个 MOC 文件
 2026-02-12 14:28:36,289 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.12：How Websites Work.md
+2026-02-13 12:11:05,775 - INFO - ===== Obsidian 英语生词拆分工具（终极极简版） =====
+2026-02-13 12:11:12,328 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\load-balancer.md
+2026-02-13 12:11:12,330 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,332 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\failover.md
+2026-02-13 12:11:12,333 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,334 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\periodic-check.md
+2026-02-13 12:11:12,335 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,336 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\enterprise-scale.md
+2026-02-13 12:11:12,337 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,339 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-13 12:11:12,340 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,341 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\cluster-of-multiple-servers.md
+2026-02-13 12:11:12,342 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,342 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-13 12:11:12,343 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,343 - INFO - ✅ 已创建：E:\code-memory\英语生词\Web安全\WAF-(Web-Application-Firewall).md
+2026-02-13 12:11:12,345 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\Web安全-MOC.md
+2026-02-13 12:11:12,346 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\backslash.md
+2026-02-13 12:11:12,348 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,349 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-13 12:11:12,350 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,351 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-13 12:11:12,353 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,354 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-13 12:11:12,355 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,355 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-13 12:11:12,356 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,356 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\latest-entry.md
+2026-02-13 12:11:12,358 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,359 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\scripting-language.md
+2026-02-13 12:11:12,360 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,361 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-13 12:11:12,362 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,362 - ERROR - ❌ 第17行处理失败：Yay/Nay - 赞成 / 反对 - A | 错误：[Errno 2] No such file or directory: 'E:\\code-memory\\英语生词\\通用技术\\Yay/Nay.md'
+2026-02-13 12:11:12,363 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-13 12:11:12,365 - INFO - ✅ 已创建：E:\code-memory\英语生词\Linux系统\virtual-host.md
+2026-02-13 12:11:12,368 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\Linux系统-MOC.md
+2026-02-13 12:11:12,368 - INFO - 
+🎉 处理完成！共创建 17 个原子笔记（总计 18 行数据）
+2026-02-13 12:11:12,368 - INFO - ✅ 同时更新 18 个 MOC 文件
+2026-02-13 12:11:12,370 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md
+2026-02-14 09:16:52,273 - INFO - ===== Obsidian 英语生词拆分工具（终极极简版） =====
+2026-02-14 09:16:52,387 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\load-balancer.md
+2026-02-14 09:16:52,387 - WARNING - ⚠️ 单词/短语load balancer的 MOC 已存在链接，跳过更新词条：load balancer - 负载均衡器 - A
+2026-02-14 09:16:52,388 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\failover.md
+2026-02-14 09:16:52,388 - WARNING - ⚠️ 单词/短语failover的 MOC 已存在链接，跳过更新词条：failover - 故障转移 - A
+2026-02-14 09:16:52,389 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\periodic-check.md
+2026-02-14 09:16:52,390 - WARNING - ⚠️ 单词/短语periodic check的 MOC 已存在链接，跳过更新词条：periodic check - 定期检查 - A
+2026-02-14 09:16:52,390 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\enterprise-scale.md
+2026-02-14 09:16:52,390 - WARNING - ⚠️ 单词/短语enterprise scale的 MOC 已存在链接，跳过更新词条：enterprise scale - 企业级规模 - A
+2026-02-14 09:16:52,391 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-14 09:16:52,391 - WARNING - ⚠️ 单词/短语respond appropriately的 MOC 已存在链接，跳过更新词条：respond appropriately - 适当响应 - A
+2026-02-14 09:16:52,391 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\cluster-of-multiple-servers.md
+2026-02-14 09:16:52,391 - WARNING - ⚠️ 单词/短语cluster of multiple servers的 MOC 已存在链接，跳过更新词条：cluster of multiple servers - 多服务器集群 - A
+2026-02-14 09:16:52,392 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-14 09:16:52,392 - WARNING - ⚠️ 单词/短语resilience的 MOC 已存在链接，跳过更新词条：resilience - 弹性 / 容错能力 - A
+2026-02-14 09:16:52,393 - INFO - ✅ 已创建：E:\code-memory\英语生词\Web安全\WAF-(Web-Application-Firewall).md
+2026-02-14 09:16:52,393 - WARNING - ⚠️ 单词/短语WAF (Web Application Firewall)的 MOC 已存在链接，跳过更新词条：WAF (Web Application Firewall) - Web 应用防火墙 - C
+2026-02-14 09:16:52,393 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\backslash.md
+2026-02-14 09:16:52,394 - WARNING - ⚠️ 单词/短语backslash的 MOC 已存在链接，跳过更新词条：backslash - 反斜杠 - A
+2026-02-14 09:16:52,394 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-14 09:16:52,394 - WARNING - ⚠️ 单词/短语be mapped to的 MOC 已存在链接，跳过更新词条：be mapped to - 映射到 - A
+2026-02-14 09:16:52,395 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-14 09:16:52,395 - WARNING - ⚠️ 单词/短语underscore的 MOC 已存在链接，跳过更新词条：underscore - 下划线 - A
+2026-02-14 09:16:52,395 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-14 09:16:52,396 - WARNING - ⚠️ 单词/短语come to a crawl的 MOC 已存在链接，跳过更新词条：come to a crawl - 变得极慢 / 陷入停滞 - A
+2026-02-14 09:16:52,396 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-14 09:16:52,397 - WARNING - ⚠️ 单词/短语take for example a blog的 MOC 已存在链接，跳过更新词条：take for example a blog - 以博客为例 - A
+2026-02-14 09:16:52,397 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\latest-entry.md
+2026-02-14 09:16:52,397 - WARNING - ⚠️ 单词/短语latest entry的 MOC 已存在链接，跳过更新词条：latest entry - 最新条目 - A
+2026-02-14 09:16:52,398 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\scripting-language.md
+2026-02-14 09:16:52,398 - WARNING - ⚠️ 单词/短语scripting language的 MOC 已存在链接，跳过更新词条：scripting language - 脚本语言 - A
+2026-02-14 09:16:52,399 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-14 09:16:52,399 - WARNING - ⚠️ 单词/短语and so much more的 MOC 已存在链接，跳过更新词条：and so much more - 等等 / 还有更多 - A
+2026-02-14 09:16:52,399 - ERROR - ❌ 第17行处理失败：Yay/Nay - 赞成 / 反对 - A | 错误：[Errno 2] No such file or directory: 'E:\\code-memory\\英语生词\\通用技术\\Yay/Nay.md'
+2026-02-14 09:16:52,400 - WARNING - ⚠️ 单词/短语Yay/Nay的 MOC 已存在链接，跳过更新词条：Yay/Nay - 赞成 / 反对 - A
+2026-02-14 09:16:52,400 - INFO - ✅ 已创建：E:\code-memory\英语生词\Linux系统\virtual-host.md
+2026-02-14 09:16:52,400 - WARNING - ⚠️ 单词/短语virtual host的 MOC 已存在链接，跳过更新词条：virtual host - 虚拟主机 - B
+2026-02-14 09:16:52,400 - INFO - 
+🎉 处理完成！共创建 17 个原子笔记（总计 18 行数据）
+2026-02-14 09:16:52,400 - INFO - ✅ 同时更新 0 个 MOC 文件
+2026-02-14 09:16:52,402 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md
+2026-02-14 09:21:56,577 - INFO - ===== Obsidian 英语生词拆分工具（终极极简版） =====
+2026-02-14 09:21:56,715 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\load-balancer.md
+2026-02-14 09:21:56,716 - WARNING - ⚠️ 单词/短语load balancer的 MOC 已存在链接，跳过更新词条：load balancer - 负载均衡器 - A
+2026-02-14 09:21:56,716 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\failover.md
+2026-02-14 09:21:56,717 - WARNING - ⚠️ 单词/短语failover的 MOC 已存在链接，跳过更新词条：failover - 故障转移 - A
+2026-02-14 09:21:56,717 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\periodic-check.md
+2026-02-14 09:21:56,717 - WARNING - ⚠️ 单词/短语periodic check的 MOC 已存在链接，跳过更新词条：periodic check - 定期检查 - A
+2026-02-14 09:21:56,718 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\enterprise-scale.md
+2026-02-14 09:21:56,718 - WARNING - ⚠️ 单词/短语enterprise scale的 MOC 已存在链接，跳过更新词条：enterprise scale - 企业级规模 - A
+2026-02-14 09:21:56,719 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-14 09:21:56,719 - WARNING - ⚠️ 单词/短语respond appropriately的 MOC 已存在链接，跳过更新词条：respond appropriately - 适当响应 - A
+2026-02-14 09:21:56,720 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\cluster-of-multiple-servers.md
+2026-02-14 09:21:56,720 - WARNING - ⚠️ 单词/短语cluster of multiple servers的 MOC 已存在链接，跳过更新词条：cluster of multiple servers - 多服务器集群 - A
+2026-02-14 09:21:56,721 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-14 09:21:56,721 - WARNING - ⚠️ 单词/短语resilience的 MOC 已存在链接，跳过更新词条：resilience - 弹性 / 容错能力 - A
+2026-02-14 09:21:56,722 - INFO - ✅ 已创建：E:\code-memory\英语生词\Web安全\WAF-(Web-Application-Firewall).md
+2026-02-14 09:21:56,723 - WARNING - ⚠️ 单词/短语WAF (Web Application Firewall)的 MOC 已存在链接，跳过更新词条：WAF (Web Application Firewall) - Web 应用防火墙 - C
+2026-02-14 09:21:56,725 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\backslash.md
+2026-02-14 09:21:56,725 - WARNING - ⚠️ 单词/短语backslash的 MOC 已存在链接，跳过更新词条：backslash - 反斜杠 - A
+2026-02-14 09:21:56,727 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-14 09:21:56,728 - WARNING - ⚠️ 单词/短语be mapped to的 MOC 已存在链接，跳过更新词条：be mapped to - 映射到 - A
+2026-02-14 09:21:56,729 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-14 09:21:56,729 - WARNING - ⚠️ 单词/短语underscore的 MOC 已存在链接，跳过更新词条：underscore - 下划线 - A
+2026-02-14 09:21:56,730 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-14 09:21:56,731 - WARNING - ⚠️ 单词/短语come to a crawl的 MOC 已存在链接，跳过更新词条：come to a crawl - 变得极慢 / 陷入停滞 - A
+2026-02-14 09:21:56,733 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-14 09:21:56,733 - WARNING - ⚠️ 单词/短语take for example a blog的 MOC 已存在链接，跳过更新词条：take for example a blog - 以博客为例 - A
+2026-02-14 09:21:56,735 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\latest-entry.md
+2026-02-14 09:21:56,736 - WARNING - ⚠️ 单词/短语latest entry的 MOC 已存在链接，跳过更新词条：latest entry - 最新条目 - A
+2026-02-14 09:21:56,737 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\scripting-language.md
+2026-02-14 09:21:56,738 - WARNING - ⚠️ 单词/短语scripting language的 MOC 已存在链接，跳过更新词条：scripting language - 脚本语言 - A
+2026-02-14 09:21:56,739 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-14 09:21:56,740 - WARNING - ⚠️ 单词/短语and so much more的 MOC 已存在链接，跳过更新词条：and so much more - 等等 / 还有更多 - A
+2026-02-14 09:21:56,740 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\Yay'Nay.md
+2026-02-14 09:21:56,741 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-14 09:21:56,742 - INFO - ✅ 已创建：E:\code-memory\英语生词\Linux系统\virtual-host.md
+2026-02-14 09:21:56,743 - WARNING - ⚠️ 单词/短语virtual host的 MOC 已存在链接，跳过更新词条：virtual host - 虚拟主机 - B
+2026-02-14 09:21:56,743 - INFO - 
+🎉 处理完成！共创建 18 个原子笔记（总计 18 行数据）
+2026-02-14 09:21:56,743 - INFO - ✅ 同时更新 1 个 MOC 文件
+2026-02-14 09:21:56,744 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md
+2026-02-14 09:27:25,905 - INFO - ===== Obsidian 英语生词拆分工具（终极极简版） =====
+2026-02-14 09:27:25,995 - INFO - ✅ 已创建：E:\code-memory\英语生词\Web安全\load-balancers.md
+2026-02-14 09:27:25,996 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\Web安全-MOC.md
+2026-02-14 09:27:25,997 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\a-failover.md
+2026-02-14 09:27:25,997 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-14 09:27:25,998 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\periodic-checks.md
+2026-02-14 09:27:25,998 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-14 09:27:25,999 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\an-enterprise-scale.md
+2026-02-14 09:27:25,999 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-14 09:27:26,000 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-14 09:27:26,000 - WARNING - ⚠️ 单词/短语respond appropriately的 MOC 已存在链接，跳过更新词条：{'e': 'respond appropriately', 'c': '适当响应', 't': 'A'}
+2026-02-14 09:27:26,001 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\clusters-of-multiple-servers.md
+2026-02-14 09:27:26,001 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-14 09:27:26,002 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-14 09:27:26,002 - WARNING - ⚠️ 单词/短语resilience的 MOC 已存在链接，跳过更新词条：{'e': 'resilience', 'c': '弹性', 't': 'A'}
+2026-02-14 09:27:26,002 - INFO - ✅ 已创建：E:\code-memory\英语生词\Web安全\Web-Application-Firewall.md
+2026-02-14 09:27:26,003 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\Web安全-MOC.md
+2026-02-14 09:27:26,005 - INFO - ✅ 已创建：E:\code-memory\英语生词\Linux系统\back-slash.md
+2026-02-14 09:27:26,006 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\Linux系统-MOC.md
+2026-02-14 09:27:26,006 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-14 09:27:26,007 - WARNING - ⚠️ 单词/短语be mapped to的 MOC 已存在链接，跳过更新词条：{'e': 'be mapped to', 'c': '映射到', 't': 'A'}
+2026-02-14 09:27:26,007 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-14 09:27:26,008 - WARNING - ⚠️ 单词/短语underscore的 MOC 已存在链接，跳过更新词条：{'e': 'underscore', 'c': '下划线', 't': 'A'}
+2026-02-14 09:27:26,008 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-14 09:27:26,009 - WARNING - ⚠️ 单词/短语come to a crawl的 MOC 已存在链接，跳过更新词条：{'e': 'come to a crawl', 'c': '变得缓慢', 't': 'A'}
+2026-02-14 09:27:26,009 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-14 09:27:26,009 - WARNING - ⚠️ 单词/短语take for example a blog的 MOC 已存在链接，跳过更新词条：{'e': 'take for example a blog', 'c': '以博客为例', 't': 'A'}
+2026-02-14 09:27:26,010 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\the-latest-entries.md
+2026-02-14 09:27:26,010 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-14 09:27:26,011 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\scripting-languages.md
+2026-02-14 09:27:26,012 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-14 09:27:26,012 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-14 09:27:26,012 - WARNING - ⚠️ 单词/短语and so much more的 MOC 已存在链接，跳过更新词条：{'e': 'and so much more', 'c': '等等', 't': 'A'}
+2026-02-14 09:27:26,013 - ERROR - ❌ 第17行处理失败：{'e': 'Yay/Nay', 'c': '赞成/反对', 't': 'A'} | 错误：[Errno 2] No such file or directory: 'E:\\code-memory\\英语生词\\通用技术\\Yay/Nay.md'
+2026-02-14 09:27:26,013 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\通用技术-MOC.md
+2026-02-14 09:27:26,013 - INFO - ✅ 已创建：E:\code-memory\英语生词\Linux系统\virtual-hosts.md
+2026-02-14 09:27:26,014 - INFO - ✅ 已更新 MOC：E:\code-memory\英语生词\--MOC\Linux系统-MOC.md
+2026-02-14 09:27:26,014 - INFO - 
+🎉 处理完成！共创建 17 个原子笔记（总计 18 行数据）
+2026-02-14 09:27:26,014 - INFO - ✅ 同时更新 11 个 MOC 文件
+2026-02-14 09:27:26,015 - ERROR - ❌ 原文件移动失败：E:\code-memory\英语生词\00Inbox-待处理\2026.2.13：Putting it all together.md -> E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md | 错误：[WinError 2] 系统找不到指定的文件。
+2026-02-14 09:41:22,549 - INFO - ===== Obsidian 英语生词拆分工具（终极极简版） =====
+2026-02-14 09:41:23,375 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-14 09:41:33,102 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\load-balancer.md
+2026-02-14 09:41:33,103 - WARNING - ⚠️ 单词/短语load balancer的 MOC 已存在链接，跳过更新词条：{'e': 'load balancer', 'c': '负载均衡器', 't': 'A'}
+2026-02-14 09:41:33,104 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\failover.md
+2026-02-14 09:41:33,104 - WARNING - ⚠️ 单词/短语failover的 MOC 已存在链接，跳过更新词条：{'e': 'failover', 'c': '故障转移', 't': 'A'}
+2026-02-14 09:41:33,105 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\periodic-check.md
+2026-02-14 09:41:33,105 - WARNING - ⚠️ 单词/短语periodic check的 MOC 已存在链接，跳过更新词条：{'e': 'periodic check', 'c': '定期检查', 't': 'A'}
+2026-02-14 09:41:33,106 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\enterprise-scale.md
+2026-02-14 09:41:33,106 - WARNING - ⚠️ 单词/短语enterprise scale的 MOC 已存在链接，跳过更新词条：{'e': 'enterprise scale', 'c': '企业级规模', 't': 'A'}
+2026-02-14 09:41:33,107 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-14 09:41:33,107 - WARNING - ⚠️ 单词/短语respond appropriately的 MOC 已存在链接，跳过更新词条：{'e': 'respond appropriately', 'c': '适当响应', 't': 'A'}
+2026-02-14 09:41:33,107 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\cluster-of-multiple-servers.md
+2026-02-14 09:41:33,108 - WARNING - ⚠️ 单词/短语cluster of multiple servers的 MOC 已存在链接，跳过更新词条：{'e': 'cluster of multiple servers', 'c': '多服务器集群', 't': 'A'}
+2026-02-14 09:41:33,108 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-14 09:41:33,108 - WARNING - ⚠️ 单词/短语resilience的 MOC 已存在链接，跳过更新词条：{'e': 'resilience', 'c': '弹性 / 容错能力', 't': 'A'}
+2026-02-14 09:41:33,109 - INFO - ✅ 已创建：E:\code-memory\英语生词\Web安全\WAF-(Web-Application-Firewall).md
+2026-02-14 09:41:33,109 - WARNING - ⚠️ 单词/短语WAF (Web Application Firewall)的 MOC 已存在链接，跳过更新词条：{'e': 'WAF (Web Application Firewall)', 'c': 'Web 应用防火墙', 't': 'C'}
+2026-02-14 09:41:33,110 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\backslash.md
+2026-02-14 09:41:33,110 - WARNING - ⚠️ 单词/短语backslash的 MOC 已存在链接，跳过更新词条：{'e': 'backslash', 'c': '反斜杠', 't': 'A'}
+2026-02-14 09:41:33,111 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-14 09:41:33,111 - WARNING - ⚠️ 单词/短语be mapped to的 MOC 已存在链接，跳过更新词条：{'e': 'be mapped to', 'c': '映射到', 't': 'A'}
+2026-02-14 09:41:33,112 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-14 09:41:33,112 - WARNING - ⚠️ 单词/短语underscore的 MOC 已存在链接，跳过更新词条：{'e': 'underscore', 'c': '下划线', 't': 'A'}
+2026-02-14 09:41:33,112 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-14 09:41:33,113 - WARNING - ⚠️ 单词/短语come to a crawl的 MOC 已存在链接，跳过更新词条：{'e': 'come to a crawl', 'c': '变得极慢 / 陷入停滞', 't': 'A'}
+2026-02-14 09:41:33,113 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-14 09:41:33,113 - WARNING - ⚠️ 单词/短语take for example a blog的 MOC 已存在链接，跳过更新词条：{'e': 'take for example a blog', 'c': '以博客为例', 't': 'A'}
+2026-02-14 09:41:33,114 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\latest-entry.md
+2026-02-14 09:41:33,114 - WARNING - ⚠️ 单词/短语latest entry的 MOC 已存在链接，跳过更新词条：{'e': 'latest entry', 'c': '最新条目', 't': 'A'}
+2026-02-14 09:41:33,114 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\scripting-language.md
+2026-02-14 09:41:33,115 - WARNING - ⚠️ 单词/短语scripting language的 MOC 已存在链接，跳过更新词条：{'e': 'scripting language', 'c': '脚本语言', 't': 'A'}
+2026-02-14 09:41:33,115 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-14 09:41:33,115 - WARNING - ⚠️ 单词/短语and so much more的 MOC 已存在链接，跳过更新词条：{'e': 'and so much more', 'c': '等等 / 还有更多', 't': 'A'}
+2026-02-14 09:41:33,116 - INFO - ✅ 已创建：E:\code-memory\英语生词\通用技术\Yay'Nay.md
+2026-02-14 09:41:33,116 - WARNING - ⚠️ 单词/短语Yay'Nay的 MOC 已存在链接，跳过更新词条：{'e': "Yay'Nay", 'c': '赞成 / 反对', 't': 'A'}
+2026-02-14 09:41:33,117 - INFO - ✅ 已创建：E:\code-memory\英语生词\Linux系统\virtual-host.md
+2026-02-14 09:41:33,117 - WARNING - ⚠️ 单词/短语virtual host的 MOC 已存在链接，跳过更新词条：{'e': 'virtual host', 'c': '虚拟主机', 't': 'B'}
+2026-02-14 09:41:33,117 - INFO - 
+🎉 处理完成！共创建 18 个原子笔记（总计 18 行数据）
+2026-02-14 09:41:33,117 - INFO - ✅ 同时更新 0 个 MOC 文件
+2026-02-14 09:41:33,118 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md
+2026-02-14 10:07:23,035 - INFO - ===== Obsidian 英语生词拆分工具（终极极简版）=====
+2026-02-14 10:07:23,908 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-14 10:07:33,713 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\load-balancer.md
+2026-02-14 10:07:33,713 - WARNING - ⚠️ MOC已存在链接，跳过：[[load-balancer.md]]
+2026-02-14 10:07:33,714 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\failover.md
+2026-02-14 10:07:33,715 - WARNING - ⚠️ MOC已存在链接，跳过：[[failover.md]]
+2026-02-14 10:07:33,716 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\periodic-check.md
+2026-02-14 10:07:33,717 - WARNING - ⚠️ MOC已存在链接，跳过：[[periodic-check.md]]
+2026-02-14 10:07:33,718 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\enterprise-scale.md
+2026-02-14 10:07:33,719 - WARNING - ⚠️ MOC已存在链接，跳过：[[enterprise-scale.md]]
+2026-02-14 10:07:33,719 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-14 10:07:33,720 - WARNING - ⚠️ MOC已存在链接，跳过：[[respond-appropriately.md]]
+2026-02-14 10:07:33,720 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\cluster-of-multiple-servers.md
+2026-02-14 10:07:33,721 - WARNING - ⚠️ MOC已存在链接，跳过：[[cluster-of-multiple-servers.md]]
+2026-02-14 10:07:33,722 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-14 10:07:33,722 - WARNING - ⚠️ MOC已存在链接，跳过：[[resilience.md]]
+2026-02-14 10:07:33,722 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\Web安全\WAF-(Web-Application-Firewall).md
+2026-02-14 10:07:33,722 - WARNING - ⚠️ MOC已存在链接，跳过：[[WAF-(Web-Application-Firewall).md]]
+2026-02-14 10:07:33,723 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\backslash.md
+2026-02-14 10:07:33,723 - WARNING - ⚠️ MOC已存在链接，跳过：[[backslash.md]]
+2026-02-14 10:07:33,724 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-14 10:07:33,724 - WARNING - ⚠️ MOC已存在链接，跳过：[[be-mapped-to.md]]
+2026-02-14 10:07:33,726 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-14 10:07:33,727 - WARNING - ⚠️ MOC已存在链接，跳过：[[underscore.md]]
+2026-02-14 10:07:33,728 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-14 10:07:33,728 - WARNING - ⚠️ MOC已存在链接，跳过：[[come-to-a-crawl.md]]
+2026-02-14 10:07:33,729 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-14 10:07:33,729 - WARNING - ⚠️ MOC已存在链接，跳过：[[take-for-example-a-blog.md]]
+2026-02-14 10:07:33,730 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\latest-entry.md
+2026-02-14 10:07:33,730 - WARNING - ⚠️ MOC已存在链接，跳过：[[latest-entry.md]]
+2026-02-14 10:07:33,730 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\scripting-language.md
+2026-02-14 10:07:33,731 - WARNING - ⚠️ MOC已存在链接，跳过：[[scripting-language.md]]
+2026-02-14 10:07:33,731 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-14 10:07:33,731 - WARNING - ⚠️ MOC已存在链接，跳过：[[and-so-much-more.md]]
+2026-02-14 10:07:33,732 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\Yay'Nay.md
+2026-02-14 10:07:33,732 - WARNING - ⚠️ MOC已存在链接，跳过：[[Yay'Nay.md]]
+2026-02-14 10:07:33,733 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\Linux系统\virtual-host.md
+2026-02-14 10:07:33,733 - WARNING - ⚠️ MOC已存在链接，跳过：[[virtual-host.md]]
+2026-02-14 10:07:33,733 - INFO - 
+🎉 处理完成！
+2026-02-14 10:07:33,733 - INFO - 📝 共处理 18 个单词/短语，成功创建 18 个原子笔记
+2026-02-14 10:07:33,733 - INFO - 📑 成功更新 0 个MOC文件
+2026-02-14 10:07:33,734 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md
+2026-02-14 10:09:56,972 - INFO - 
+                 ===== Obsidian 英语生词拆分工具（终极极简版）=====
+                 功能：智能分类 + 原子笔记 + MOC维护 + 日志记录
+                 -----------------------------------------------
+                 正在处理文件：2026.2.13：Putting it all together
+                 来源解析中...
+                 
+2026-02-14 10:09:57,713 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-14 10:10:07,078 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\load-balancer.md
+2026-02-14 10:10:07,078 - WARNING - ⚠️ MOC已存在链接，跳过：[[load-balancer.md]]
+2026-02-14 10:10:07,079 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\failover.md
+2026-02-14 10:10:07,080 - WARNING - ⚠️ MOC已存在链接，跳过：[[failover.md]]
+2026-02-14 10:10:07,081 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\periodic-check.md
+2026-02-14 10:10:07,082 - WARNING - ⚠️ MOC已存在链接，跳过：[[periodic-check.md]]
+2026-02-14 10:10:07,084 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\enterprise-scale.md
+2026-02-14 10:10:07,084 - WARNING - ⚠️ MOC已存在链接，跳过：[[enterprise-scale.md]]
+2026-02-14 10:10:07,085 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-14 10:10:07,086 - WARNING - ⚠️ MOC已存在链接，跳过：[[respond-appropriately.md]]
+2026-02-14 10:10:07,087 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\cluster-of-multiple-servers.md
+2026-02-14 10:10:07,088 - WARNING - ⚠️ MOC已存在链接，跳过：[[cluster-of-multiple-servers.md]]
+2026-02-14 10:10:07,089 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-14 10:10:07,089 - WARNING - ⚠️ MOC已存在链接，跳过：[[resilience.md]]
+2026-02-14 10:10:07,090 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\Web安全\WAF-(Web-Application-Firewall).md
+2026-02-14 10:10:07,091 - WARNING - ⚠️ MOC已存在链接，跳过：[[WAF-(Web-Application-Firewall).md]]
+2026-02-14 10:10:07,091 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\backslash.md
+2026-02-14 10:10:07,091 - WARNING - ⚠️ MOC已存在链接，跳过：[[backslash.md]]
+2026-02-14 10:10:07,092 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-14 10:10:07,092 - WARNING - ⚠️ MOC已存在链接，跳过：[[be-mapped-to.md]]
+2026-02-14 10:10:07,093 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-14 10:10:07,094 - WARNING - ⚠️ MOC已存在链接，跳过：[[underscore.md]]
+2026-02-14 10:10:07,095 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-14 10:10:07,095 - WARNING - ⚠️ MOC已存在链接，跳过：[[come-to-a-crawl.md]]
+2026-02-14 10:10:07,096 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-14 10:10:07,096 - WARNING - ⚠️ MOC已存在链接，跳过：[[take-for-example-a-blog.md]]
+2026-02-14 10:10:07,097 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\latest-entry.md
+2026-02-14 10:10:07,098 - WARNING - ⚠️ MOC已存在链接，跳过：[[latest-entry.md]]
+2026-02-14 10:10:07,100 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\scripting-language.md
+2026-02-14 10:10:07,100 - WARNING - ⚠️ MOC已存在链接，跳过：[[scripting-language.md]]
+2026-02-14 10:10:07,101 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-14 10:10:07,102 - WARNING - ⚠️ MOC已存在链接，跳过：[[and-so-much-more.md]]
+2026-02-14 10:10:07,103 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\Yay'Nay.md
+2026-02-14 10:10:07,103 - WARNING - ⚠️ MOC已存在链接，跳过：[[Yay'Nay.md]]
+2026-02-14 10:10:07,104 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\Linux系统\virtual-host.md
+2026-02-14 10:10:07,104 - WARNING - ⚠️ MOC已存在链接，跳过：[[virtual-host.md]]
+2026-02-14 10:10:07,104 - INFO - 
+🎉 处理完成！
+2026-02-14 10:10:07,105 - INFO - 📝 共处理 18 个单词/短语，成功创建 18 个原子笔记
+2026-02-14 10:10:07,105 - INFO - 📑 成功更新 0 个MOC文件
+2026-02-14 10:10:07,106 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md
+2026-02-14 10:10:55,016 - INFO - 
+                 ===== Obsidian 英语生词拆分工具（终极极简版）=====
+                 功能：智能分类 + 原子笔记 + MOC维护 + 日志记录
+                 -----------------------------------------------
+                 正在处理文件：2026.2.13：Putting it all together
+                 来源解析中...
+                 
+2026-02-14 10:10:55,870 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-14 10:11:05,319 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\load-balancer.md
+2026-02-14 10:11:05,319 - WARNING - ⚠️ MOC已存在链接，跳过：[[load-balancer.md]]
+2026-02-14 10:11:05,321 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\failover.md
+2026-02-14 10:11:05,321 - WARNING - ⚠️ MOC已存在链接，跳过：[[failover.md]]
+2026-02-14 10:11:05,322 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\periodic-check.md
+2026-02-14 10:11:05,322 - WARNING - ⚠️ MOC已存在链接，跳过：[[periodic-check.md]]
+2026-02-14 10:11:05,324 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\enterprise-scale.md
+2026-02-14 10:11:05,324 - WARNING - ⚠️ MOC已存在链接，跳过：[[enterprise-scale.md]]
+2026-02-14 10:11:05,325 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-14 10:11:05,326 - WARNING - ⚠️ MOC已存在链接，跳过：[[respond-appropriately.md]]
+2026-02-14 10:11:05,327 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\cluster-of-multiple-servers.md
+2026-02-14 10:11:05,328 - WARNING - ⚠️ MOC已存在链接，跳过：[[cluster-of-multiple-servers.md]]
+2026-02-14 10:11:05,329 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-14 10:11:05,330 - WARNING - ⚠️ MOC已存在链接，跳过：[[resilience.md]]
+2026-02-14 10:11:05,366 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\Web安全\WAF.md
+2026-02-14 10:11:05,368 - INFO - ✅ 已更新MOC文件：E:\code-memory\英语生词\--MOC\Web安全-MOC.md
+2026-02-14 10:11:05,368 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\backslash.md
+2026-02-14 10:11:05,369 - WARNING - ⚠️ MOC已存在链接，跳过：[[backslash.md]]
+2026-02-14 10:11:05,369 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-14 10:11:05,369 - WARNING - ⚠️ MOC已存在链接，跳过：[[be-mapped-to.md]]
+2026-02-14 10:11:05,370 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-14 10:11:05,370 - WARNING - ⚠️ MOC已存在链接，跳过：[[underscore.md]]
+2026-02-14 10:11:05,370 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-14 10:11:05,371 - WARNING - ⚠️ MOC已存在链接，跳过：[[come-to-a-crawl.md]]
+2026-02-14 10:11:05,371 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-14 10:11:05,371 - WARNING - ⚠️ MOC已存在链接，跳过：[[take-for-example-a-blog.md]]
+2026-02-14 10:11:05,372 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\latest-entry.md
+2026-02-14 10:11:05,372 - WARNING - ⚠️ MOC已存在链接，跳过：[[latest-entry.md]]
+2026-02-14 10:11:05,372 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\scripting-language.md
+2026-02-14 10:11:05,372 - WARNING - ⚠️ MOC已存在链接，跳过：[[scripting-language.md]]
+2026-02-14 10:11:05,373 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-14 10:11:05,373 - WARNING - ⚠️ MOC已存在链接，跳过：[[and-so-much-more.md]]
+2026-02-14 10:11:05,374 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\Yay'Nay.md
+2026-02-14 10:11:05,374 - WARNING - ⚠️ MOC已存在链接，跳过：[[Yay'Nay.md]]
+2026-02-14 10:11:05,375 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\Linux系统\virtual-host.md
+2026-02-14 10:11:05,375 - WARNING - ⚠️ MOC已存在链接，跳过：[[virtual-host.md]]
+2026-02-14 10:11:05,375 - INFO - 🎉 处理完成！
+2026-02-14 10:11:05,375 - INFO - 📝 共处理 18 个单词/短语，成功创建 18 个原子笔记
+2026-02-14 10:11:05,375 - INFO - 📑 成功更新 1 个MOC文件
+2026-02-14 10:11:05,376 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md
+2026-02-14 10:11:44,233 - INFO - 
+                 ===== Obsidian 英语生词拆分工具（终极极简版）=====
+                 功能：智能分类 + 原子笔记 + MOC维护 + 日志记录
+                 -----------------------------------------------
+                 正在处理文件：2026.2.13：Putting it all together
+                 来源解析中...
+                 
+2026-02-14 10:11:44,975 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-14 10:11:54,162 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\load-balancer.md
+2026-02-14 10:11:54,163 - WARNING - ⚠️ MOC已存在链接，跳过：[[load-balancer.md]]
+2026-02-14 10:11:54,164 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\failover.md
+2026-02-14 10:11:54,164 - WARNING - ⚠️ MOC已存在链接，跳过：[[failover.md]]
+2026-02-14 10:11:54,165 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\periodic-check.md
+2026-02-14 10:11:54,166 - WARNING - ⚠️ MOC已存在链接，跳过：[[periodic-check.md]]
+2026-02-14 10:11:54,167 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\enterprise-scale.md
+2026-02-14 10:11:54,168 - WARNING - ⚠️ MOC已存在链接，跳过：[[enterprise-scale.md]]
+2026-02-14 10:11:54,169 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\respond-appropriately.md
+2026-02-14 10:11:54,173 - WARNING - ⚠️ MOC已存在链接，跳过：[[respond-appropriately.md]]
+2026-02-14 10:11:54,174 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\cluster-of-multiple-servers.md
+2026-02-14 10:11:54,175 - WARNING - ⚠️ MOC已存在链接，跳过：[[cluster-of-multiple-servers.md]]
+2026-02-14 10:11:54,175 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\resilience.md
+2026-02-14 10:11:54,175 - WARNING - ⚠️ MOC已存在链接，跳过：[[resilience.md]]
+2026-02-14 10:11:54,175 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\Web安全\WAF-(Web-Application-Firewall).md
+2026-02-14 10:11:54,177 - WARNING - ⚠️ MOC已存在链接，跳过：[[WAF-(Web-Application-Firewall).md]]
+2026-02-14 10:11:54,177 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\backslash.md
+2026-02-14 10:11:54,178 - WARNING - ⚠️ MOC已存在链接，跳过：[[backslash.md]]
+2026-02-14 10:11:54,178 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\be-mapped-to.md
+2026-02-14 10:11:54,178 - WARNING - ⚠️ MOC已存在链接，跳过：[[be-mapped-to.md]]
+2026-02-14 10:11:54,179 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\underscore.md
+2026-02-14 10:11:54,179 - WARNING - ⚠️ MOC已存在链接，跳过：[[underscore.md]]
+2026-02-14 10:11:54,180 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\come-to-a-crawl.md
+2026-02-14 10:11:54,180 - WARNING - ⚠️ MOC已存在链接，跳过：[[come-to-a-crawl.md]]
+2026-02-14 10:11:54,181 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\take-for-example-a-blog.md
+2026-02-14 10:11:54,181 - WARNING - ⚠️ MOC已存在链接，跳过：[[take-for-example-a-blog.md]]
+2026-02-14 10:11:54,182 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\latest-entry.md
+2026-02-14 10:11:54,182 - WARNING - ⚠️ MOC已存在链接，跳过：[[latest-entry.md]]
+2026-02-14 10:11:54,183 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\scripting-language.md
+2026-02-14 10:11:54,183 - WARNING - ⚠️ MOC已存在链接，跳过：[[scripting-language.md]]
+2026-02-14 10:11:54,184 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\and-so-much-more.md
+2026-02-14 10:11:54,184 - WARNING - ⚠️ MOC已存在链接，跳过：[[and-so-much-more.md]]
+2026-02-14 10:11:54,184 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\通用技术\Yay'Nay.md
+2026-02-14 10:11:54,185 - WARNING - ⚠️ MOC已存在链接，跳过：[[Yay'Nay.md]]
+2026-02-14 10:11:54,185 - INFO - ✅ 已创建原子笔记：E:\code-memory\英语生词\Linux系统\virtual-host.md
+2026-02-14 10:11:54,185 - WARNING - ⚠️ MOC已存在链接，跳过：[[virtual-host.md]]
+2026-02-14 10:11:54,186 - INFO - 🎉 处理完成！
+2026-02-14 10:11:54,186 - INFO - 📝 共处理 18 个单词/短语，成功创建 18 个原子笔记
+2026-02-14 10:11:54,186 - INFO - 📑 成功更新 0 个MOC文件
+2026-02-14 10:11:54,187 - INFO - ✅ 已将原文件移动到已归档：E:\code-memory\英语生词\99Inbox-已归档\2026.2.13：Putting it all together.md
