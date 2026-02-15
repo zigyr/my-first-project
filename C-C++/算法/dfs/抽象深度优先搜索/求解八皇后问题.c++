@@ -19,7 +19,7 @@ void dfs (int r){
         if (check(r, i)){
             col[i] = x1[r + i] = x2[r - i + 8] = true;
             dfs(r + 1);
-            col[i] = x1[r + i] = x2[r - i + 8] =false;
+            col[i] = x1[r + i] = x2[r - i + 8] = false;
         }
     }
 }
