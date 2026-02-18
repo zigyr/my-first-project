@@ -8,12 +8,12 @@
 ->0
 ->0
 */
-#include <cstdio>
-#include <vector>
+#include <iostream>
 using namespace std;
-vector<int> son[100005];
-bool f[100005];
-int ans[100005];
+#include <vector>
+vector<int> son[1005];
+bool f[1005];
+int n, ans[1005];
 int dfs(int u){
     int ret = 0;
     for (int i = 0; i < son[u].size(); i++){
@@ -23,21 +23,22 @@ int dfs(int u){
     return ret + 1;
 }
 int main (){
-    int n, x, y, u;
-    scanf("%d", &n);
+    cin >> n;
+    int tmp1, tmp2;
     for (int i = 0; i < n - 1; i++){
-        scanf("%d%d", &x, &y);
-        son[x].push_back(y);
-        f[y] = true;
+        cin >> tmp1 >> tmp2;
+        son[tmp1].push_back(tmp2);
+        f[tmp2] = true;
     }
+    int u;
     for (int i = 1; i <= n; i++){
-        if (!f[i]){
+        if (!f[i]) {
             u = i;
             break;
         }
     }
     dfs(u);
     for (int i = 1; i <= n; i++){
-        printf("%d\n", ans[i]);
+        cout << ans[i] << endl;
     }
 }

@@ -1,5 +1,12 @@
 /*
 从n个数中选k个数的和为sum
+测试一:（秒出）
+    5 3 9
+    1 2 3 4 5
+    -> 2
+测试二:（等了一会）
+    30 8 200
+    -> 70
 */
 #include <iostream>
 using namespace std;
@@ -20,7 +27,8 @@ void dfs(int i, int cnt, int s){
 int main (){
     cin >> n >> k >>sum;
     for (int i = 0; i < n; i++){
-        cin >> a[i];
+        // cin >> a[i];
+        a[i] = i + 1;
     }
     dfs(0, 0, 0);
     cout << ans <<endl;

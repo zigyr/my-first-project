@@ -1,7 +1,9 @@
 /*
-输入一个二维数组的字符串
-S代表起点，T代表终点，.代表能走的路，*代表障碍物
-输出一条从S到T的路径，也就是将路径上的.变成m，从新打印二维数组
+3 4
+S**.
+....
+***T
+-> 5
 */
 #include <iostream>
 #include <string>
@@ -27,6 +29,8 @@ void dfs(int x,int y,int step){
     for(int i=0;i<4;i++){
         int tx=x+dir[i][0];
         int ty=y+dir[i][1];
+        // 注意这里
+        // 先判断坐标合法，再访问数组检验是否可通
         if(in(tx,ty) && !vis[tx][ty] && maze[tx][ty]!='*'){
             dfs(tx,ty,step+1);
         }
