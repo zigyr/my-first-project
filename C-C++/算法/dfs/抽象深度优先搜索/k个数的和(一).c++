@@ -23,6 +23,8 @@ void dfs(int i, int cnt, int s){
     //dfs(i++, cnt, s);
     dfs(i + 1, cnt, s);//不选
     dfs(i + 1, cnt + 1, s+a[i]);//选
+    // 这里两个dfs连续使用
+    // 与找数字.c++里相似
 }
 int main (){
     cin >> n >> k >>sum;

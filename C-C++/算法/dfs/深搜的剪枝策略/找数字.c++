@@ -18,6 +18,8 @@ void dfs(long m, int cnt){
     }
     dfs(m * 10 + 0, cnt + 1);
     dfs(m * 10 + 1, cnt + 1);
+    // 这里两个dfs连续使用
+    // 与k个数的和(一).c++里相似
 } 
 int main (){
     cin >> n;

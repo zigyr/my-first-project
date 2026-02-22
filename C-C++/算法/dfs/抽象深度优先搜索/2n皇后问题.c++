@@ -29,7 +29,9 @@ void dfs(int x, int p){
             vy[i] += p;
             vd1[x + i] += p;
             vd2[x - i + n] += p;
+
             dfs(x + 1, p);
+            
             mp[x][i] = 1;
             vy[i] -= p;
             vd1[x + i] -= p;
