@@ -16,7 +16,7 @@ LL sum(LL k){
 int main (){
     int a = 100;
     int x = 3, y = 5, z = x * y;
-    LL ans = x * sum(a/x) + y * sum(a/y) - z * sum(a/z);
+    LL ans = x * sum(a / x) + y * sum(a / y) - z * sum(a / z);
     // 求解 1~n 以内的 a 的倍数的和
     // a * sum(n / a)
     cout << ans << endl; 
