@@ -32,11 +32,8 @@ int main (){
     for (int i = 1; i <= lena; i++){
         for (int j = 1; j <= lenb; j++){
             // 注意这里是a用i索引, b用j索引
-            if (a[i - 1] == b[j - 1]){
-                dp[i][j] = dp[i - 1][j - 1] + 1;
-            } else{
-                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
-            }
+            if (a[i - 1] == b[j - 1]) dp[i][j] = dp[i - 1][j - 1] + 1;
+            else dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
         }
     }
 
