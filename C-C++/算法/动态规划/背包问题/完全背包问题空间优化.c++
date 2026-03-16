@@ -1,14 +1,14 @@
 /*
 dp[j]:
     表示容量为 j 时的最优解
-    
+
 5 10
-2 1 
+2 1
 3 5
-2 5 
+2 5
 3 4
 4 3
--> 9
+-> 20
 */
 #include <iostream>
 using namespace std;
@@ -24,7 +24,7 @@ int main (){
         cin >> w[i] >> c[i];
     }
     for (int i = 1; i <= N; i++){
-        for (int j = V; j >= c[i]; j--){
+        for (int j = c[i]; j <= V; j++){
             dp[j] = max(dp[j - c[i]] + w[i], dp[j]);
         }
     }
