@@ -21,6 +21,7 @@ using namespace std;
 const int maxn = 1010;
 int dp[maxn];
 const int inf = 0x3f3f3f3f;
+// 比 INT_MAX 更安全
 
 int main (){
     memset(dp, inf, sizeof(dp));
