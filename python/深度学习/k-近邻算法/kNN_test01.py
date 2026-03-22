@@ -12,17 +12,20 @@ def createDataset():
     return x_train, y_train
 
 
-def knn(x_test, x_train, y_train, k):
+def classify0(x_test, x_train, y_train, k):
     # `numpy_list.shape[0]`
     # 获取numpy_list的一维维度
     num_samples = x_train.shape[0]
+
     # `np.tile(数据, (行数, 列数))`
     # 复制数组，让待测点和训练集的行列一致
     diff_mat = np.tile(x_test, (num_samples, 1)) - x_train # 差值矩阵
+
     sq_diff_mat = diff_mat ** 2 # 平方差值矩阵
     # `numpy_list.sum(axis=1)`
     # 按行相加
     sq_distances = sq_diff_mat.sum(axis = 1)
+
     distances = sq_distances ** 0.5
     # `numpy_list.argsort()`
     # 返回从小到大排序后的索引编号
@@ -45,4 +48,4 @@ def knn(x_test, x_train, y_train, k):
 if __name__ == '__main__':
     x_train, y_train = createDataset()
     x_test = [101, 20]
-    print(knn(x_test, x_train, y_train, 3))
+    print(classify0(x_test, x_train, y_train, 3))
