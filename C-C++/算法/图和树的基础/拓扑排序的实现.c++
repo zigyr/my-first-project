@@ -17,38 +17,40 @@ const int N = 1001;
 
 struct edge{
     int v, next;
-    int len;
+    int inx;
 } e[N << 1];
 
-int head[N], len;
+int head[N], inx;
 void init(){
     memset(head, -1, sizeof(head));
-    len = 0;
+    inx = 0;
 }
 
 void insert(int u, int v){
-    e[len].v = v;
-    e[len].next = head[u];
-    head[u] = len++;
+    e[inx].v = v;
+    e[inx].next = head[u];
+    head[u] = inx++;
 }
 
 int n, m;
 int indegree[N];
-
 void topo(){
     queue<int>q;
+    // 找到入度为0的节点, 当作排序的开始
     for (int i = 1; i <= n; i++){
-        if (indegree[i] == 0){
+        if (!indegree[i]){
             q.push(i);
         }
     }
+    // 类似广度优先搜索
     while(!q.empty()){
         int u = q.front(); q.pop();
         cout << u << endl;
+        // 灵活运用邻接表的链接效果
         for (int i = head[u]; ~i; i = e[i].next){
             int v = e[i].v;
             indegree[v]--;
-            if(indegree[v] == 0){
+            if(!indegree[v]){
                 q.push(v);
             }
         }

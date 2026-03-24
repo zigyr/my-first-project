@@ -15,7 +15,6 @@
 using namespace std;
 
 const int N = 1001;
-const int inf = 0x3f3f3f3f;
 
 struct edge{
     int v, w, next;
@@ -28,7 +27,6 @@ struct edge{
 } e[N << 1];
 
 int head[N], inx;
-
 void init(){
     memset(head, -1, sizeof head);
     inx = 0;
@@ -50,10 +48,10 @@ bool vis[N];
 int dis[N];
 void dijkstra(int u){
     memset(vis, false, sizeof(vis));
-    memset(dis, inf, sizeof(dis));
+    memset(dis, 0x3f, sizeof(dis));
     dis[u] = 0;
     for (int i = 0; i < n; i++){
-        int mind = inf, minj = -1;
+        int mind = INT_MAX, minj = -1;
         for (int j = 1; j <= n; j++){
             if (!vis[j] && dis[j] < mind){
                 mind = dis[j];
@@ -62,6 +60,7 @@ void dijkstra(int u){
         }
         if (minj == -1) return;
         vis[minj] = true;
+        // 灵活运用邻接表的链接效果
         for (int j = head[minj]; ~j; j = e[j].next){
             int v = e[j].v;
             int w = e[j].w;

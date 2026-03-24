@@ -13,34 +13,34 @@ using namespace std;
 const int N = 1e3 + 9;
 
 struct edge{
-    int v, w, fail;
+    int v, w, next;
     edge(){}
-    edge(int _v, int _w, int _fail){
+    edge(int _v, int _w, int  _next){
         v = _v;
         w = _w;
-        fail = _fail;
+     next =  _next;
     }
 } e[N << 1];
 
-int head[N], len;
+int head[N], inx;
 void init(){
     memset(head, -1, sizeof head);
-    len = 0;
+    inx = 0;
 }
 
-void add(int u, int v, int w){
-    e[len] = edge(v, w, head[u]);
-    head[u] = len++;
+void insert(int u, int v, int w){
+    e[inx] = edge(v, w, head[u]);
+    head[u] = inx++;
 }
-void add2(int u, int v, int w){
-    add(u, v, w);
-    add(v, u, w);
+void insert2(int u, int v, int w){
+    insert(u, v, w);
+    insert(v, u, w);
 }
 
 int n, m;
 
-int dis[N];
 bool vis[N];
+int dis[N];
 void spfa(int u){
     memset(vis, false, sizeof(vis));
     vis[u] = true;
@@ -51,7 +51,8 @@ void spfa(int u){
     while(!q.empty()){
         u = q.front();
         q.pop(); vis[u] = false;
-        for (int j = head[u]; ~j; j = e[j].fail){
+        // 灵活运用邻接表的链接效果
+        for (int j = head[u]; ~j; j = e[j].next){
             int v = e[j].v;
             int w = e[j].w;
             if (dis[v] > dis[u] + w){
@@ -71,7 +72,7 @@ int main (){
     while(m--){
         int u, v, w;
         cin >> u >> v >> w;
-        add2(u, v, w);
+        insert2(u, v, w);
     }
     spfa(1);
     cout << dis[n] << endl;
