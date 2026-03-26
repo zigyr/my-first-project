@@ -13,15 +13,7 @@ examples_data = {
     '分析师报告': ""
 }
 
-messages = [
-    {"role": "system", "content": "你是金融专家，将文本分类为['新闻报道','财务报道','公司公告','分析师报告'],不清楚的分类为'不清楚类别', 下面有示例："},
-]
-    
-for key, value in examples_data.items():
-    messages.append({"role": "user", "content": value})
-    messages.append({"role": "assistant", "content": key})
-
-# 提问数据
+# 准备提问
 questions = [
         "今日,央行发布公告宣布降低利率,以刺激经济增长。这一降息举措将影响贷款利率,并在未来几个季度内对金融市场产生影响。",
         "ABC公司今日发布公告称,已成功完成对XYZ公司股权的收购交易。本次交易是ABC公司在扩大业务范围、加强市场竞争力方面的重要举措。据悉,此次收购将进一步巩固ABC公司在行业中的地位,并为未来业务发展提供更广阔的发展空间。详情请见公司官方网站公告栏",
@@ -30,7 +22,19 @@ questions = [
         "小明喜欢小红"
 ]
 
-# 向模型提问
+# 创建提问
+messages = [
+    {"role": "system", "content": "你是金融专家，将文本分类为['新闻报道','财务报道','公司公告','分析师报告'],不清楚的分类为'不清楚类别', 下面有示例："},
+]
+    
+# 追加示例
+for key, value in examples_data.items():
+    messages.append({"role": "user", "content": value})
+    messages.append({"role": "assistant", "content": key})
+
+
+
+# 进行提问
 for q in questions:
     response = client.chat.completions.create(
         model = "qwen3-max",
