@@ -1,24 +1,19 @@
 /*
-能不重复的遍历图中的所有边(欧拉图)
-if(起点==终点)欧拉回路
-else(起点!=终点)欧拉路径
-*/
-/*
-欧拉回路：每个节点的入度等于出度
-欧拉路径：恰有一个节点(起点)的：出度 = 入度 + 1
-         恰有一个节点(终点)的：入度 = 出度 + 1
-*/
-/*
 4 4
 2 1
 3 2
 1 3
 2 4
--> It has an euler path!
+-> 2
+-> 1
+-> 3
+-> 2
+-> 4
 */
 #include <iostream>
 using namespace std;;
 #include <cstring>
+#include <stack>
 
 const int maxn = 1000;
 
@@ -47,18 +42,15 @@ int euler(){
     int first = 0, last = 0;
     for (int i = 1; i <= n; i++){
         if (degree[i] < -1 || degree[i] > 1){
-            cout << "It doesn't have an euler path!" << endl;
             return -1;
         } else if (degree[i] == -1){
             if (first != 0){
-                cout << "It doesn't have an euler path!" << endl;
                 return 0;
             } else{
                 first = i;
             }
         } else if (degree[i] == 1){
             if (last != 0){
-                cout << "It doesn't have an euler path!" << endl;
                 return 0;
             } else {
                 last = i;
@@ -66,11 +58,30 @@ int euler(){
         }
     }
     if (first == 0 && last == 0){
-        cout << "It has an euler circuit!" << endl;
         return 1;
     } else if (first != 0 && last != 0){
-        cout << "It has an euler path!" << endl;
         return first;
+    } else {
+        return 0;
+    }
+}
+
+stack<int> path;
+void dfs(int u){
+    while(p[u] != -1){
+        int v = e[p[u]].v;
+        p[u] = e[p[u]].next;
+        dfs(v);
+    }
+    path.push(u);
+}
+
+bool euler_find(){
+    int start = euler();
+    if (start == 0) return false;
+    else{
+        dfs(start);
+        return (path.size() == m + 1);
     }
 }
 
@@ -85,5 +96,12 @@ int main(){
         degree[u]--;
         degree[v]++;
     }
-    euler();
+    if (!euler_find()){
+        cout << "It doesn't have an euler path!" << endl;
+    } else {
+        while(!path.empty()){
+            cout << path.top() << endl;
+            path.pop();
+        }
+    }
 }

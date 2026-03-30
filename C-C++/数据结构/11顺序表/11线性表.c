@@ -70,6 +70,11 @@ int LocateElem(SeqList *L, ElemType e){
 
 //ListInsert
 void ListInsert(SeqList *L, int pos, ElemType e){
+    // 把一个数，插入最后一个数的前面，显然是合法的
+    // 但是把一个数，插入到最后一个数的后面，仍然是合法的
+    if (pos < 1 || pos > L -> len + 1){
+        printf("[ListInsert]position error\n");
+    }
     for(int i = L -> len; i >= pos; i--){
         L -> data[i] = L -> data[i - 1];
     }
@@ -172,7 +177,8 @@ int main() {
     //和它指向的内存大小（sizeof(ElemType)*MAXSIZE）无关
 
 
-    //init-check
+    // SeqList list;
+    // initList(&list);
     SeqList *list = initList();
     printf("%d\n", list->len);
     printf("%lld\n", sizeof(list->data));

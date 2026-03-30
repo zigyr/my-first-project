@@ -14,6 +14,6 @@ res1 = template.format(name="小明", hobby="画画")               # 关键字�
 print(res1, type(res1))
 
 res2_1 = template.invoke({"name": "小红", "hobby": "跳舞"})     # 字典传参
-res2_2 = template.invoke({"name": "小红", "hobby": "跳舞"}).to_string()
 print(res2_1, type(res2_1))
+res2_2 = template.invoke({"name": "小红", "hobby": "跳舞"}).to_string()
 print(res2_2, type(res2_2))
