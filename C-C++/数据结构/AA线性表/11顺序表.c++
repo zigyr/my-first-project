@@ -1,40 +1,40 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+using namespace std;
+
 #define MAXSIZE 1000
-
-// 交换函数
-void swap(int *a, int *b) {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-
 typedef int ElemType;
 
-// initList
+// 交换函数
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+// // initList
 // // static
-// typedef struct{
+// struct SeqList{
 // 	ElemType data[MAXSIZE];
 // 	int len;
-// }SeqList;
+// };
 // void initList(SeqList *L){
 // 	L->len=0;
 // }
 // dynamic
-typedef struct{
+struct SeqList{
 	ElemType *data;
 	int len;
-}SeqList;
+};
 SeqList* initList(){
-	SeqList *L = (SeqList*)malloc(sizeof(SeqList));
-	L->data = (ElemType*)malloc(sizeof(ElemType)*MAXSIZE);
+	SeqList *L = new SeqList;
+	L->data = new ElemType[MAXSIZE];
 	L->len = 0;
 	return L;
 }
 
 //DestroyList
 void DestoryList(SeqList *L){
-    free(L);
+    delete L;
 }
 
 //ListEmpty
@@ -50,9 +50,9 @@ int ListLength(SeqList *L){
 //DispList
 void DispList(SeqList *L) {
     for (int i = 0; i < L->len;) {
-        printf("%d ", L->data[i++]);
+        cout << L->data[i++];
     }
-    printf("\n");
+    cout << endl;
 }
 
 //GetElem
@@ -89,7 +89,7 @@ void ListDelete(SeqList *L, int pos, ElemType *e){
     *e = L -> data[pos - 1];
     L -> len--;
 }
-//endInsert
+//EndInsert
 void EndInsert(SeqList *L,ElemType e){
 	if(L->len>=MAXSIZE){
 		printf("[endInsert]full\n");
@@ -133,9 +133,9 @@ void partition1(SeqList *L){
     while(i < j){
         while (i < j && L -> data[j] > base) j--;
         while (i < j && L -> data[i] <= base) i++;
-        swap(&L -> data[i], &L -> data[j]);
+        swap(L -> data[i], L -> data[j]);
     }
-    swap(&L -> data[0], &L -> data[i]);
+    swap(L -> data[0], L -> data[i]);
 }
 void partition2(SeqList *L){
     int i = 0, j = L -> len - 1;
@@ -158,7 +158,7 @@ void move1(SeqList *L){
     while(i < j){
         while(i < j && L -> data[j] % 2 == 0) j--;
         while(i < j && L -> data[i] % 2 != 0) i++;
-        swap(&L -> data[j], &L -> data[i]);
+        swap(L -> data[j], L -> data[i]);
     }
 }
 void move2(SeqList *L){
@@ -166,20 +166,18 @@ void move2(SeqList *L){
     for (int j = 0; j < L -> len; j++){
         if (L -> data[j] % 2 != 0){
             i++;
-            swap(&L -> data[j], &L -> data[i]);
+            swap(L -> data[j], L -> data[i]);
         }
     }
 }
 
 int main() {
-    //L->data = malloc(...) 只是让 data 指针指向了一段动态分配的内存，
-    //但 sizeof(data) 永远只计算指针本身的字节数，
-    //和它指向的内存大小（sizeof(ElemType)*MAXSIZE）无关
-
-
+    // // static
     // SeqList list;
     // initList(&list);
+    // dynamic
     SeqList *list = initList();
+
     printf("%d\n", list->len);
     printf("%lld\n", sizeof(list->data));
 
