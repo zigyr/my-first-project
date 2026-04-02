@@ -16,11 +16,14 @@ for page in reader.pages:
 # 5. 设置密码（你代码里用的是"zigyr"，这里保持一致）
 # 第一个参数是"用户密码"（打开文件需要输入），第二个是"所有者密码"（权限控制）
 # 加密writer（内存）
-writer.encrypt(user_password="123", owner_password="123")
+writer.encrypt(
+    user_password="zigyr",     # user_password（用户密码）控制「文件打开权限」必须输入正确密码才能打开
+    owner_password=""        # owner_password（所有者密码）	控制「文件操作权限」不影响文件打开（无用户密码时可直接打开）
+)
 
 # 6. 保存加密后的PDF
 with open(output_pdf_path, "wb") as output_file:
     # 将加密后的writer（内存）写入路径，存入（硬盘）
     writer.write(output_file)
 
-print("PDF加密完成！密码：123")
+print("PDF加密完成！文件打开密码：zigyr")
