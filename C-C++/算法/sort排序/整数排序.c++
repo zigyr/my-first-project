@@ -4,25 +4,26 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-int num[105];
-//对题目的理解，通过sort进行解决，这一步惊艳到我了
-bool cmp(int x,int y){
-    if(x%3!=y%3){
-        return x%3<y%3;
-    }else{
-        return x<y;
-    }
-}
-//
+
+const int maxn = 1010;
+int a[maxn];
+
 int main (){
-    int N;
-    cin>>N;
-    for(int i=0;i<N;i++){
-        cin>>num[i];
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; i++){
+        cin >> a[i];
     }
-    sort(num,num+N,cmp);
-    for(int i=0;i<N;i++){
-        cout<<num[i]<<" ";
+    sort(a, a + n, [](int a, int b){
+        // if ((a % 3) != (b % 3)){
+        //     return a % 3 < b % 3;
+        // }
+        // return a < b;
+        if ((a % 3) == (b % 3))
+            return a < b;
+        return a % 3 < b % 3;
+    });
+    for (int i = 0; i < n; i++){
+        cout << a[i] << " ";
     }
-    cout<<endl;
 }

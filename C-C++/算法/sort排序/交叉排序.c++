@@ -10,8 +10,9 @@ int main (){
     for(int i=0;i<N;i++){
         cin>>num[i];
     }
-    sort(num+l1-1,num+r1);
-    sort(num+l2-1,num+r2,greater<int>());
+    // 想一想普通的`sort(a, a + n)`, 不难推的
+    sort(num + l1 - 1, num + r1);
+    sort(num + l2 - 1, num + r2, greater<int>());
     for(int i=0;i<N;i++){
         if(i>0)cout<<" ";
         cout<<num[i];

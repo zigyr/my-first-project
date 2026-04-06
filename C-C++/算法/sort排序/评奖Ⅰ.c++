@@ -9,6 +9,7 @@ struct Student{
 };
 bool cmp(Student x,Student y){
     //这里很巧妙
+    // 与前面的浮点数排序相像
     int sumx=x.score[0]+x.score[1]+x.score[2]+x.score[3];
     int sumy=y.score[0]+y.score[1]+y.score[2]+y.score[3];
     return sumx>sumy;

@@ -4,3 +4,5 @@ python/code/prohub/
 *.mp4
 *.avi
 *.mov
+# 忽略所有的C/C++编译文件
+**/output

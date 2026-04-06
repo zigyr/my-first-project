@@ -6,33 +6,35 @@
 using namespace std;
 #include <vector>
 
+const int maxn = 1010;
+int a[maxn];
+
 int main (){
-    int N;
-    cin>>N;
-    vector<int>v;
-    int tmp;
-    for(int i=0;i<N;i++){
-        cin>>tmp;
-        v.push_back(tmp);
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; i++){
+        cin >> a[i];
     }
-    sort(v.begin(),v.end(),[](int x,int y){
-        int xx=x,yy=y;
-        int sumx=0,sumy=0;
-        while(x){
-            sumx+=x%10;
-            x/=10;
+    
+    sort(a, a + n, [](int x, int y){
+        int _x = x, _y = y;
+        int x_tot = 0;
+        int y_tot = 0;
+        while (x){
+            x_tot += (x % 10);
+            x /= 10;
         }
-        while(y){
-            sumy+=y%10;
-            y/=10;
+        while (y){
+            y_tot += (y % 10);
+            y /= 10;
         }
-        if(sumx==sumy){
-            return xx<yy;
-        }else{
-            return sumx<sumy;
-        }
+        if (x_tot == y_tot)
+            // 注意这里要用一对变量储存原值
+            return _x < _y;
+        return x_tot < y_tot;
     });
-    for(const auto& a:v){
-        cout<<a<<" ";
+
+    for (int i = 0; i < n; i++){
+        cout << a[i] << " ";
     }
 }

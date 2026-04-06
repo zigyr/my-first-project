@@ -8,35 +8,45 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+
 struct Child{
     int a;
-    int id;
-};
-Child chi[1005];
-int h[1005];int used[1005];
+} chi[1005];
+
+int h[1005];
+int used[1005];
 int ans[1005];
+
 int main (){
-    int n,m;
-    cin>>n>>m;
-    for(int i=0;i<n;i++){
-        cin>>chi[i].a;
-        chi[i].id=i;
+    int n, m;
+    cin >> n >> m;
+    for (int i = 0; i < n; i++){
+        cin >> chi[i].a;
     }
-    for(int i=0;i<m;i++){
-        cin>>h[i];
+    for (int i = 0; i < m; i++){
+        cin >> h[i];
     }
-    sort(chi,chi+n,[](Child x,Child y){
-        return x.a<y.a;
+    // for (int i = 0; i < n; i++){
+    //     for (int j = 0; j < m; j++){
+    //         if (!used[j] && chi[i].a >= h[j]){
+    //             ans[i]++;
+    //             used[j] = true;
+    //         }
+    //     }
+    // }
+
+    sort(chi, chi + n, [](Child x, Child y){
+        return x.a < y.a;
     });
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
-            if(!used[j]&&chi[i].a>=h[j]){
-                ans[chi[i].id]++;
-                used[j]=true;
-            }
-        }
+    sort(h, h + m);
+    int pre = 0;
+    int las = 0;
+    for (int i = 0; i < n; i++){
+        while (chi[i].a >= h[las] && las < m) las++;
+        ans[i] = las - pre;
+        pre = las;
     }
-    for(int i=0;i<n;i++){
-        cout<<ans[i]<<endl;
+    for (int i = 0; i < n; i++){
+        cout << ans[i] << endl;
     }
 }
