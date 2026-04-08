@@ -22,6 +22,7 @@ int main (){
     string ss;
     for (int i = 0; i < n; i++){
         cin >> op >> ss;
+        // 转小写
         for (int j = 0; j < ss.size(); j++){
             if (ss[j] >= 'A' && ss[j] <= 'Z'){
                 ss[j] = ss[j] - 'A' + 'a';

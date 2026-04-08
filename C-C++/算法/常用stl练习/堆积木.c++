@@ -1,4 +1,8 @@
 /*
+巧妙
+利用v[a].push_back(v[b][j])
+将b数组中的元素追加到a中
+并通过vector<int>().swap(v[b])对b进行清空
 4 4
 3 1
 4 3
@@ -16,6 +20,7 @@ int main (){
     vector<int> v[1000];
     int n, m;
     cin >> n >> m;
+    // 初始原有数据, 这步也很重要
     for (int i = 1; i <= n; i++){
         v[i].push_back(i);
     }
@@ -28,6 +33,7 @@ int main (){
         for (int j = 0; j < v[b].size(); j++){
             v[a].push_back(v[b][j]);
         }
+        // 清空b
         vector<int>().swap(v[b]);
     }
     for (int i = 1; i <= n; i++){

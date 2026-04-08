@@ -14,6 +14,7 @@ string add(string a, string b){
     for (int i = 0; i < len; i++){
         int digit_a = (i < a.size()) ? (a[i] - '0') : 0;
         int digit_b = (i < b.size()) ? (b[i] - '0') : 0;
+        // carry在这里是代表进位的意思
         int total = digit_a + digit_b + carry;
         res.push_back((total % 10) + '0');
         carry = total / 10;

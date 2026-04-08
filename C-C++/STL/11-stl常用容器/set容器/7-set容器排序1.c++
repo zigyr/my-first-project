@@ -8,7 +8,8 @@
 using namespace std;
 #include <string>
 #include <functional>
-//set容器排序：内置数据类型
+// // set容器排序：内置数据类型
+
 // class myCompare{
 // public:
 //     bool operator()(int v1,int v2)const{
@@ -17,20 +18,20 @@ using namespace std;
 // };
 
 void test01(){
-    function<bool(int, int)> mp = [](int x, int y){
-        return x > y;
-    };
     set<int>s1;
     s1.insert(10);
     s1.insert(20);
     s1.insert(30);
     s1.insert(40);
-
+    
     for(set<int>::iterator it=s1.begin();it!=s1.end();it++){
         cout<<*it<<" ";
     }
     cout<<endl;
-
+    
+    function<bool(int, int)> mp = [](int x, int y){
+        return x > y;
+    };
     set<int,function<bool(int, int)>>s2(mp);
     s2.insert(10);
     s2.insert(20);

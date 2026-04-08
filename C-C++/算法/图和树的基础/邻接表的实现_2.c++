@@ -35,7 +35,7 @@ struct edge{
     edge(){}
     edge(int _v, int  _next){
         v = _v;
-     next =  _next;
+        next =  _next;
     }
 } e[N << 1];
 
@@ -65,6 +65,8 @@ int main (){
     for (int i = 1; i <= 10; i++){
         cout << "(" << i << "): ";
         for (int j = head[i]; ~j; j = e[j].next){   
+            // ~j 即 j != -1
+            // 与上方的memset(head, -1, sizeof(head))对应
             if (j != head[i]) cout << ", ";
             cout << e[j].v;
         }

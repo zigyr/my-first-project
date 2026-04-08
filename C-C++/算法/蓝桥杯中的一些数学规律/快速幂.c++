@@ -6,6 +6,7 @@ typedef long long LL;
 #define mod 1000
 
 LL my_pow(LL a, LL b){
+    // 注意初始化的地方
     LL res = 1;
     a = a % mod;
 
@@ -19,7 +20,7 @@ LL my_pow(LL a, LL b){
     while(b){
         if (b & 1) res = res * a % mod;
         a = a * a % mod;
-        b = b >> 1;
+        b >>= 1;
     }
 
     return res;

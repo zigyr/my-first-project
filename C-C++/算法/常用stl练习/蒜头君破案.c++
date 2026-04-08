@@ -13,6 +13,10 @@ m代表罪犯的人数 接下来m行输入每个人的身高、体重、年龄
 -> no
 -> yes
 */
+/*
+灵活应用了
+set的自定义数据类型插入、仿函数、查找之类的内容
+*/
 #include <iostream>
 using namespace std;
 #include <set>
@@ -21,7 +25,7 @@ public:
     int h, w, a;
     People(int h_, int w_, int a_) : h(h_), w(w_), a(a_) {}
     bool operator <(const People& p)const{
-        return h < p.h;
+        return h < p.h;  // 升序
     }
 };
 

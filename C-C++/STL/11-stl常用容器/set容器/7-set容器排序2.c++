@@ -14,7 +14,7 @@ public:
     int x;
     Number(int x_) : x(x_) {}
     bool operator <(const Number& num)const{
-        return x > num.x;
+        return x < num.x;  // 升序
     }
 };
 
@@ -34,14 +34,11 @@ void test01(){
 //set容器排序：自定义数据类型
 class Person{
 public:
-    Person(string name,int age){
-        this->m_Name=name;
-        this->m_Age=age;
-    }
     string m_Name;
     int m_Age;
+    Person(string _m_Name, int _m_Age) : m_Name(_m_Name), m_Age(_m_Age) {}
     bool operator <(const Person& p)const{
-        return m_Age > p.m_Age;
+        return m_Age > p.m_Age;  // 降序
     }
 };
 

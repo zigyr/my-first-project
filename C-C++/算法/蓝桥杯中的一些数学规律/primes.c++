@@ -11,6 +11,7 @@ int sieve(int n){
         if (!st[i]){
             primes[cnt++] = i;
             // 注意这里的 for循环 的循环因子是 (j += i)
+            /*非常重要*/
             for (int j = i * i; j <= n; j += i) st[j] = true;
                 // 当处理到质数 i 时，
                 // 所有小于 i*i 的 i 的倍数（即 i*2, i*3, ..., i*(i-1)），

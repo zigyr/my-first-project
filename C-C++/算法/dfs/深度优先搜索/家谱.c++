@@ -11,28 +11,32 @@
 #include <iostream>
 using namespace std;
 #include <vector>
-vector<int> son[1005];
-bool f[1005];
-int n, ans[1005];
+
+int ans[1010];
+vector<int> son[1010];
+bool flag[1010];
+int n;
+bool vis[1010];
+
 int dfs(int u){
     int ret = 0;
-    for (int i = 0; i < son[u].size(); i++){
+    for (int i = 0; i < son[u].size(); i++)
         ret += dfs(son[u][i]);
-    }
     ans[u] = ret;
     return ret + 1;
 }
+
 int main (){
-    cin >> n;
-    int tmp1, tmp2;
+    cin  >> n;
     for (int i = 0; i < n - 1; i++){
-        cin >> tmp1 >> tmp2;
-        son[tmp1].push_back(tmp2);
-        f[tmp2] = true;
+        int n1, n2;
+        cin >> n1 >> n2;
+        son[n1].push_back(n2);
+        flag[n2] = true;
     }
     int u;
     for (int i = 1; i <= n; i++){
-        if (!f[i]) {
+        if (!flag[i]){
             u = i;
             break;
         }

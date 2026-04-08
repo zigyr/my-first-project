@@ -23,7 +23,7 @@ int main (){
     string fru, add;
     for (int i = 0; i < n; i++){
         cin >> fru >> add >> op;
-        // 二维map还可以这样玩
+        // 同二维map
         mp[add][fru] += op;
     }
     for (map<string, map<string, int>>::iterator it = mp.begin(); it != mp.end(); it++){

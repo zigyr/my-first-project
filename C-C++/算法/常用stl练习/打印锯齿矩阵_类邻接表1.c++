@@ -31,7 +31,7 @@ int main (){
     }
     for (int i = 1; i <= n; i++){
         for (int j = 0; j < v[i].size(); j++){
-            if(j > 0)cout << " ";
+            if(j > 0) cout << " ";
             cout << v[i][j];
         }
         cout << endl;
