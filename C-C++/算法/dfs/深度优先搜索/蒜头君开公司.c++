@@ -4,18 +4,19 @@
 输出一个整数, 代表所需的最少时间之和
 */
 #include <iostream>
-#include <climits>
 using namespace std;
-int n, ans = INT_MAX;
+
+int n, ans = 0x3f3f3f3f;
 int task[10][10];
 int used[10];
+
+// 在x层时, 还未进行选择时的耗时为t
 void dfs(int x, int t){
     if (x == n){
-        if (t < ans){
-            ans = t;
-        }
+        ans = min(t, ans);
         return;
     }
+
     for (int i = 0; i < n; i++){
         if (!used[i]){
             used[i] = true;

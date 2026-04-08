@@ -6,43 +6,40 @@
 表示所有匹配的括号的位置；
 如果不完全匹配，输出no。
 */
-#include <cstdio>
+#include <iostream>
+using namespace std;
 #include <stack>
-#include <cstring>
-
-char str[2000];
-std::stack<int> s;
-int ans[2000];
-
+           
 int main (){
-    scanf("%s",str);
-    bool f=true;
-    for(int i=0;i<strlen(str);i++){
-        if(str[i]=='('){
-            s.push(i+1);
-        }else{
-            if(!s.empty()){
-                ans[i+1]=s.top();
-                s.pop();
-            }else{
-                f=false;
+    string s;
+    cin >> s;
+
+    int ans[1010] = {0};
+    bool flag = true;
+    stack<int> ss;
+    for (int i = 0; i < s.size(); i++){
+        if (s[i] == '(')
+            ss.push(i + 1);
+        else{
+            if (ss.empty()){
+                flag = false;
                 break;
             }
+
+            ans[ss.top()] = i + 1;
+            ss.pop();
         }
     }
-    if(!s.empty()){
-        f=false;
-    }
-    if(!f){
-        printf("no\n");
-    }else{
-        printf("yes\n");
-        //注意这里的范围是<=strlen(str)
-        for(int i=1;i<=strlen(str);i++){
-            //去扫一遍ans，如果不为0，就是一个result
-            if(ans[i]){
-                printf("%d %d\n",ans[i],i);
-            }
+
+    if (!ss.empty())
+        flag = false;
+
+    if (flag){
+        cout << "yes" << endl;
+        for (int i = 1; i <= s.size(); i++){
+            if (ans[i])
+                cout << i << " " << ans[i] << endl;
         }
-    }
+    } else
+        cout << "no" << endl;
 }

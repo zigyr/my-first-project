@@ -20,8 +20,10 @@ bool vis[1010];
 
 int dfs(int u){
     int ret = 0;
+
     for (int i = 0; i < son[u].size(); i++)
         ret += dfs(son[u][i]);
+
     ans[u] = ret;
     return ret + 1;
 }
@@ -34,6 +36,9 @@ int main (){
         son[n1].push_back(n2);
         flag[n2] = true;
     }
+
+    // 寻找起始点
+    // 即没有父系的老祖
     int u;
     for (int i = 1; i <= n; i++){
         if (!flag[i]){
@@ -41,6 +46,7 @@ int main (){
             break;
         }
     }
+
     dfs(u);
     for (int i = 1; i <= n; i++){
         cout << ans[i] << endl;

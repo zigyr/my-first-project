@@ -1,4 +1,5 @@
 /*
+入门
 5 5
 S####
 .####
@@ -17,9 +18,8 @@ bool in (int x, int y){
     return x < 0 || x >= n || y < 0 || y >= m;
 }
 void dfs (int x, int y){
-    if (in(x, y) || vis[x][y] || maze[x][y] == '#'){
+    if (in(x, y) || maze[x][y] == '#' || vis[x][y])
         return;
-    }
     if (maze[x][y] == 'e'){
         ans++;
         return;
@@ -37,6 +37,7 @@ int main (){
     for (int i = 0; i < n; i++){
         cin >> maze[i];
     }
+    // 寻找入口点
     int x,y;
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
