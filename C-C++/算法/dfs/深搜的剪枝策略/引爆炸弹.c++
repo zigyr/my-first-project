@@ -6,45 +6,49 @@
 1 0 0 0 1
 0 1 0 0 0
 -> 2
+这道题根本不需要任何 “最优策略”
+也不用选哪里引爆更划算
+你随便挑一个没炸过的炸弹点一下
+结果都是一样的
 */
 #include <iostream>
 using namespace std;
-int n, m, ans;
-int mp[1005][1005];
-bool row[1005], col[1005];
+
+int n, m;
+int maze[1010][1010];
+
 void dfs(int x, int y){
-    mp[x][y] = 0;
-    if (!col[y]){
-        col[y] = true; 
-        for (int i = 0; i < n; i++){
-            if (mp[i][y] == 1){
-                dfs(i, y);
-            }
-        }
+    maze[x][y] = 0;
+
+    // 行
+    for (int i = 0; i < n; i++){
+        if (maze[i][y])
+            dfs(i, y);
     }
-    if (!row[x]){
-        row[x] = true;
-        for (int i = 0; i < m; i++){
-            if (mp[x][i] == 1){
-                dfs(x, i);
-            }
-        }
+    // 列
+    for (int i = 0; i < m; i++){
+        if (maze[x][i])
+            dfs(x, i);
     }
 }
+
 int main (){
     cin >> n >> m;
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
-            cin >> mp[i][j];
+            cin >> maze[i][j];
         }
     }
+
+    int ans = 0;
     for (int i = 0; i < n; i++){
         for (int j = 0; j < m; j++){
-            if (mp[i][j] == 1){
+            if (maze[i][j]){
                 dfs(i, j);
                 ans++;
             }
         }
     }
+
     cout << ans << endl;
 }

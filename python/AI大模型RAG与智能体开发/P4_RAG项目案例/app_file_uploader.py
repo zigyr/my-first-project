@@ -5,7 +5,7 @@
 # """
 # 运行：
 #     在cmd窗口cd到该目录下
-#     执行`streamlit run [文件名.py]`即可
+#     执行`streamlit run app_file_uploader.py`即可
 # """
 # """
 # Streamlit：当Web页面元素发生变化时，则代码重新执行一遍

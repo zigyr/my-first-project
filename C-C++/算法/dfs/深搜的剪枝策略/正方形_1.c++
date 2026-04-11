@@ -1,16 +1,21 @@
 /*
-输入：第一行输入一个整数n(3<=n<=10), 表示木棍数量, 接下来输入n根木棍的长度
-输出：如果能拼出等边三角形，输出“yes”；否则，输出“no”
+4
+1 1 1 1
+-> Yes
+5
+10 20 30 40 50
+-> No
+如果木棍能拼出正方形，输出"Yes"，否则输出"No"
 */
 #include <iostream>
 using namespace std;
 
 int n;
-int sum;
 int a[100];
-bool vis[100];
+int sum;
 int s;
 bool flag;
+bool vis[100];
 
 void dfs(int inx, int ss){
     if (flag)
@@ -19,11 +24,11 @@ void dfs(int inx, int ss){
     if (ss > s)
         return;
 
-    if (inx == 3){
+    if (inx == 4){
         flag = true;
         return;
     }
-
+    
     if (ss == s)
         dfs(inx + 1, 0);
     else{
@@ -44,15 +49,15 @@ int main (){
         sum += a[i];
     }
 
-    if (sum % 3 != 0){
+    if (sum % 4){
         cout << "No" << endl;
         return 0;
-    } else{
-        s = sum / 3;
+    }else{
+        s = sum / 4;
         dfs(1, 0);
         if (flag)
             cout << "Yes" << endl;
-        else 
+        else
             cout << "No" << endl;
     }
 }

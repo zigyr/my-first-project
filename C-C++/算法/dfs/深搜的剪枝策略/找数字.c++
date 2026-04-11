@@ -6,22 +6,25 @@
 */
 #include <iostream>
 using namespace std;
+
 int n;
-bool ok;
+bool flag;
+
 void dfs(long m, int cnt){
-    if (cnt >= 19) return;
-    if (ok) return;
+    if (cnt >= 19 || flag) 
+        return;
+
     if (m % n == 0){
+        flag = true;
         cout << m << endl;
-        ok = true;
         return;
     }
+
     dfs(m * 10 + 0, cnt + 1);
     dfs(m * 10 + 1, cnt + 1);
-    // 这里两个dfs连续使用
-    // 与k个数的和(一).c++里相似
 } 
 int main (){
     cin >> n;
+
     dfs(1, 0);    
 }

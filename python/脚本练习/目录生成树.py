@@ -1,6 +1,6 @@
 import os
 
-path = 'C:\\Users\\zigyr\\Desktop\\test'
+path = r'F:\Compilers\python2'
 
 def print_tree(root_dir, prefix=""):
     # 列出当前目录下的所有内容（文件夹 + 文件）
