@@ -12,6 +12,7 @@ void swap(int &a, int &b) {
 }
 
 // // initList
+
 // // static
 // struct SeqList{
 // 	ElemType data[MAXSIZE];
@@ -20,6 +21,7 @@ void swap(int &a, int &b) {
 // void initList(SeqList *L){
 // 	L->len=0;
 // }
+
 // dynamic
 struct SeqList{
 	ElemType *data;
