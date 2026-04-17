@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+using namespace std;
 
 #define MAXSIZE 100
 
 typedef int ElemType;
 
 // //static
-// typedef struct{
+// struct Stack{
 //     ElemType data[MAXSIZE];
 //     int top;
-// }Stack;
+// };
 // void initStack(Stack *s){
-//     s->top=-1;
+//     s -> top = -1;
 // }
 //dynamic
 typedef struct stack{
@@ -25,33 +25,40 @@ Stack* initStack(){
     return s;
 }
 
-//isEmpty
+
+
+// DestroyStack
+void DestroyStack(Stack *s){
+    delete s;
+}
+
+
+// isEmpty
 int isEmpty(Stack *s){
-    return s->top==-1;
+    return s -> top == -1;
 }
 
-//push
-void push(Stack *s,ElemType e){
-    if(s->top>=MAXSIZE){
-        printf("full\n");
+// push
+void push(Stack *s, ElemType e){
+    if(s->top == MAXSIZE - 1)
         return;
-    }
-    s->top++;
-    s->data[s->top]=e;
+    s -> top++;
+    s -> data[s -> top] = e;
 }
 
-//pop
-void pop(Stack *s,ElemType *e){
-    if(s->top==-1){
-        printf("empty\n");
+// pop
+void pop(Stack *s, ElemType &e){
+    if(s->top==-1)
         return;
-    }
-    *e=s->data[s->top--];
+    e = s -> data[s -> top--];
+}
+void pop(Stack *s, ElemType *e){
+    *e = s -> data[s -> top--];
 }
 
-//getTop
+// getTop
 int getTop(Stack *s){
-    return s->data[s->top];
+    return s -> data[s -> top];
 }
 
 int main (){
@@ -70,7 +77,7 @@ int main (){
     push(s,5);
     //pop
     int e;
-    pop(s,&e);
+    pop(s,e);
     printf("%d\n",e);
     //getTop
     printf("%d\n",getTop(s));
