@@ -1,0 +1,392 @@
+video_title: 黑马程序员AI大模型必备《机器学习》全套视频教程，从算法到实战项目，覆盖KNN算法、线性回归、逻辑回归、决策树、集成学习、KMeans算法、数据挖掘等
+playlist:
+  - index: 1
+    title: 机器学习课程导学
+    duration: 12:16
+  - index: 2
+    title: 第一章-机器学习概述-01.机器学习_大纲介绍
+    duration: 10:13
+  - index: 3
+    title: 第一章-机器学习概述-02.机器学习_相关概述目录介绍
+    duration: 07:29
+  - index: 4
+    title: 第一章-机器学习概述-03.机器学习_AI_ML_DL介绍
+    duration: 30:31
+  - index: 5
+    title: 第一章-机器学习概述-04.机器学习_基于规则和模型的介绍
+    duration: 12:25
+  - index: 6
+    title: 第一章-机器学习概述-05.机器学习_应用领域和发展史介绍
+    duration: 15:53
+  - index: 7
+    title: 第一章-机器学习概述-06.机器学习_名词介绍
+    duration: 11:26
+  - index: 8
+    title: 第一章-机器学习概述-07.机器学习_算法分类
+    duration: 38:29
+  - index: 9
+    title: 第一章-机器学习概述-08.机器学习_建模流程
+    duration: 20:56
+  - index: 10
+    title: 第一章-机器学习概述-09.机器学习_特征工程介绍
+    duration: 20:59
+  - index: 11
+    title: 第一章-机器学习概述-10.上午内容回顾
+    duration: 06:45
+  - index: 12
+    title: 第一章-机器学习概述-11.机器学习_模型拟合问题
+    duration: 19:54
+  - index: 13
+    title: 第一章-机器学习概述-12.机器学习_环境搭建
+    duration: 11:49
+  - index: 14
+    title: 第一章-机器学习概述-13.KNN算法_简介
+    duration: 32:03
+  - index: 15
+    title: 第一章-机器学习概述-14.KNN算法_思路分析
+    duration: 12:58
+  - index: 16
+    title: 第一章-机器学习概述-15.KNN算法_分类思想代码实现
+    duration: 20:20
+  - index: 17
+    title: 第一章-机器学习概述-16.KNN算法_回归思想代码实现
+    duration: 19:36
+  - index: 18
+    title: 第二章-KNN算法-01.常用的距离度量方式
+    duration: 31:02
+  - index: 19
+    title: 第二章-KNN算法-02.特征预处理_归一化
+    duration: 25:31
+  - index: 20
+    title: 第二章-KNN算法-03.特征预处理_标准化
+    duration: 17:27
+  - index: 21
+    title: 第二章-KNN算法-04.鸢尾花案例_查看数据集
+    duration: 25:12
+  - index: 22
+    title: 第二章-KNN算法-05.鸢尾花案例_数据集可视化
+    duration: 11:28
+  - index: 23
+    title: 第二章-KNN算法-06.鸢尾花案例_切分训练集和测试集
+    duration: 12:27
+  - index: 24
+    title: 第二章-KNN算法-07.鸢尾花案例_模型的评估和预测
+    duration: 28:35
+  - index: 25
+    title: 第二章-KNN算法-08.交叉验证和网格搜索_介绍
+    duration: 17:48
+  - index: 26
+    title: 第二章-KNN算法-09.交叉验证和网格搜索_代码实现
+    duration: 26:01
+  - index: 27
+    title: 第二章-KNN算法-10.手写数字识别_数据集介绍
+    duration: 13:48
+  - index: 28
+    title: 第二章-KNN算法-11.手写数字识别_绘制数字
+    duration: 23:34
+  - index: 29
+    title: 第二章-KNN算法-12.手写数字识别_训练和保存模型
+    duration: 18:56
+  - index: 30
+    title: 第二章-KNN算法-13.手写数字识别_加载和使用模型
+    duration: 19:22
+  - index: 31
+    title: 第二章-KNN算法-14.解决预测错误的Bug
+    duration: 06:26
+  - index: 32
+    title: 第三章-线性回归-01.今日内容大纲介绍
+    duration: 13:18
+  - index: 33
+    title: 第三章-线性回归-02.线性回归简介
+    duration: 24:08
+  - index: 34
+    title: 第三章-线性回归-03.线性回归API_入门
+    duration: 11:10
+  - index: 35
+    title: 第三章-线性回归-04.损失函数介绍
+    duration: 42:09
+  - index: 36
+    title: 第三章-线性回归-05.导数_复习
+    duration: 33:41
+  - index: 37
+    title: 第三章-线性回归-06.偏导数_复习
+    duration: 19:36
+  - index: 38
+    title: 第三章-线性回归-07.上午内容回顾
+    duration: 11:39
+  - index: 39
+    title: 第三章-线性回归-08.矩阵_复习
+    duration: 52:42
+  - index: 40
+    title: 第三章-线性回归-09.一元线性回归_正规方程法
+    duration: 29:14
+  - index: 41
+    title: 第三章-线性回归-10.多元线性回归_正规方程法(上)
+    duration: 36:15
+  - index: 42
+    title: 第三章-线性回归-11.多元线性回归_正规方程法(下)
+    duration: 09:02
+  - index: 43
+    title: 第三章-线性回归-12.补充_为啥转换时是Xw
+    duration: 15:13
+  - index: 44
+    title: 第三章-线性回归-13.单变量_梯度下降法
+    duration: 19:47
+  - index: 45
+    title: 第三章-线性回归-14.多变量_梯度下降法
+    duration: 22:49
+  - index: 46
+    title: 第四章-线性回归-01.银行信贷案例_梯度下降法
+    duration: 43:09
+  - index: 47
+    title: 第四章-线性回归-02.梯度下降算法分类
+    duration: 37:12
+  - index: 48
+    title: 第四章-线性回归-03.回归模型_评估方法
+    duration: 13:38
+  - index: 49
+    title: 第四章-线性回归-04.正规方程_线性回归对象API介绍
+    duration: 41:45
+  - index: 50
+    title: 第四章-线性回归-05.梯度下降_线性回归对象API介绍
+    duration: 15:51
+  - index: 51
+    title: 第四章-线性回归-06.代码演示_欠拟合
+    duration: 35:40
+  - index: 52
+    title: 第四章-线性回归-07.代码演示_正好拟合
+    duration: 15:53
+  - index: 53
+    title: 第四章-线性回归-08.代码演示_过拟合
+    duration: 05:50
+  - index: 54
+    title: 第四章-线性回归-09.L1和L2正则化解释
+    duration: 40:30
+  - index: 55
+    title: 第五章-逻辑回归-01.今日内容大纲介绍
+    duration: 12:21
+  - index: 56
+    title: 第五章-逻辑回归-02.逻辑回归_简介
+    duration: 08:38
+  - index: 57
+    title: 第五章-逻辑回归-03.逻辑回归_概率相关知识回顾
+    duration: 36:04
+  - index: 58
+    title: 第五章-逻辑回归-04.逻辑回归_原理介绍
+    duration: 22:49
+  - index: 59
+    title: 第五章-逻辑回归-05.逻辑回归案例_癌症预测
+    duration: 35:11
+  - index: 60
+    title: 第五章-逻辑回归-06.混淆矩阵及精确率, 召回率, F1值介绍
+    duration: 23:18
+  - index: 61
+    title: 第五章-逻辑回归-07.混淆矩阵_精确率_召回率_F1值_代码演示
+    duration: 30:22
+  - index: 62
+    title: 第五章-逻辑回归-08.混淆矩阵_总结
+    duration: 04:15
+  - index: 63
+    title: 第五章-逻辑回归-09.ROC曲线和AUC指标介绍(了解)
+    duration: 09:02
+  - index: 64
+    title: 第五章-逻辑回归-10.ROC曲线_案例(了解)
+    duration: 30:12
+  - index: 65
+    title: 第六章-决策树-01.逻辑回归_电信用户流失预测_数据预处理
+    duration: 29:41
+  - index: 66
+    title: 第六章-决策树-02.逻辑回归_电信用户流失预测_数据可视化
+    duration: 12:36
+  - index: 67
+    title: 第六章-决策树-03.逻辑回归_电信用户流失预测_模型训练预测评估
+    duration: 18:13
+  - index: 68
+    title: 第六章-决策树-04.决策树_简介
+    duration: 14:38
+  - index: 69
+    title: 第六章-决策树-05.决策树_信息熵简介
+    duration: 22:18
+  - index: 70
+    title: 第六章-决策树-06.决策树_信息增益计算
+    duration: 19:13
+  - index: 71
+    title: 第六章-决策树-07.ID3决策树_搭建
+    duration: 33:05
+  - index: 72
+    title: 第六章-决策树-08.上午内容回顾
+    duration: 08:04
+  - index: 73
+    title: 第六章-决策树-09.C4.5树_信息增益率
+    duration: 42:00
+  - index: 74
+    title: 第六章-决策树-10.Cart树原理介绍
+    duration: 58:37
+  - index: 75
+    title: 第六章-决策树-11.三种决策树总结
+    duration: 06:17
+  - index: 76
+    title: 第六章-决策树-12.泰坦尼克号案例_数据集介绍
+    duration: 16:30
+  - index: 77
+    title: 第六章-决策树-13.泰坦尼克号案例_代码演示
+    duration: 21:33
+  - index: 78
+    title: 第六章-决策树-14.CART决策树_回归用法
+    duration: 16:49
+  - index: 79
+    title: 第七章-集成学习-01.回归决策树和线性回归对比
+    duration: 31:32
+  - index: 80
+    title: 第七章-集成学习-02.决策树_剪枝介绍
+    duration: 17:54
+  - index: 81
+    title: 第七章-集成学习-03.集成学习_大纲介绍
+    duration: 09:38
+  - index: 82
+    title: 第七章-集成学习-04.集成学习_简介
+    duration: 12:28
+  - index: 83
+    title: 第七章-集成学习-05.集成学习_Bagging和Boosting思想介绍
+    duration: 19:07
+  - index: 84
+    title: 第七章-集成学习-06.Bagging思想_随机森林算法介绍
+    duration: 18:40
+  - index: 85
+    title: 第七章-集成学习-07.随机森林API_泰坦尼克号案例
+    duration: 27:35
+  - index: 86
+    title: 第七章-集成学习-08.Boosting思想_AdaBoost自适应提升树介绍
+    duration: 22:29
+  - index: 87
+    title: 第七章-集成学习-09.AdaBoost算法_推导过程
+    duration: 51:39
+  - index: 88
+    title: 第七章-集成学习-10.AdaBoost算法_葡萄酒案例
+    duration: 30:39
+  - index: 89
+    title: 第七章-集成学习-11.GBDT算法_梯度提升树介绍
+    duration: 22:25
+  - index: 90
+    title: 第七章-集成学习-12.GBDT算法_推导过程
+    duration: 38:00
+  - index: 91
+    title: 第七章-集成学习-13.GBDT算法_泰坦尼克号案例
+    duration: 32:20
+  - index: 92
+    title: 第八章-KMeans算法-01.XGBoost极限梯度提升树_简介
+    duration: 22:37
+  - index: 93
+    title: 第八章-KMeans算法-02.XGBoost极限梯度提升树_推导
+    duration: 59:29
+  - index: 94
+    title: 第八章-KMeans算法-03.XGBoost API介绍
+    duration: 09:42
+  - index: 95
+    title: 第八章-KMeans算法-04.XGBoost案例_红酒品质分类_数据预处理
+    duration: 19:46
+  - index: 96
+    title: 第八章-KMeans算法-05.XGBoost案例_红酒品质分类_模型训练
+    duration: 12:04
+  - index: 97
+    title: 第八章-KMeans算法-06.XGBoost案例_红酒品质分类_模型评测
+    duration: 19:50
+  - index: 98
+    title: 第八章-KMeans算法-07.朴素贝叶斯_简介
+    duration: 42:23
+  - index: 99
+    title: 第八章-KMeans算法-08.商品评论情感分析_思路分析
+    duration: 13:28
+  - index: 100
+    title: 第八章-KMeans算法-09.商品评论情感分析_数据预处理
+    duration: 46:05
+  - index: 101
+    title: 第八章-KMeans算法-10.商品评论情感分析_模型训练和预测
+    duration: 11:54
+  - index: 102
+    title: 第八章-KMeans算法-11.聚类算法_简介
+    duration: 20:47
+  - index: 103
+    title: 第八章-KMeans算法-12.聚类算法_API初识
+    duration: 25:46
+  - index: 104
+    title: 第八章-KMeans算法-13.聚类算法_推导流程
+    duration: 23:43
+  - index: 105
+    title: 第九章-数据挖掘实战项目-01.聚类算法评估指标_SSE介绍
+    duration: 14:31
+  - index: 106
+    title: 第九章-数据挖掘实战项目-02.聚类算法评估指标_SSE代码实现
+    duration: 22:20
+  - index: 107
+    title: 第九章-数据挖掘实战项目-03.聚类算法评估指标_sc, ch轮廓系数介绍
+    duration: 16:33
+  - index: 108
+    title: 第九章-数据挖掘实战项目-04.sc, ch轮廓系数_代码演示
+    duration: 13:58
+  - index: 109
+    title: 第九章-数据挖掘实战项目-05.用户分群_求解最优K值
+    duration: 27:08
+  - index: 110
+    title: 第九章-数据挖掘实战项目-06.用户分群_代码实现
+    duration: 27:03
+  - index: 111
+    title: 第九章-数据挖掘实战项目-07.时序数据介绍
+    duration: 25:10
+  - index: 112
+    title: 第九章-数据挖掘实战项目-08.时序数据分类介绍
+    duration: 13:01
+  - index: 113
+    title: 第九章-数据挖掘实战项目-09.时序预测_算法介绍
+    duration: 15:42
+  - index: 114
+    title: 第九章-数据挖掘实战项目-10.电力负荷预测案例_背景介绍
+    duration: 09:42
+  - index: 115
+    title: 第九章-数据挖掘实战项目-11.电力负荷预测案例_项目搭建
+    duration: 17:23
+  - index: 116
+    title: 第九章-数据挖掘实战项目-12.电力负荷预测案例_日志功能介绍
+    duration: 20:51
+  - index: 117
+    title: 第九章-数据挖掘实战项目-13.电力负荷预测案例_数据预处理
+    duration: 13:05
+  - index: 118
+    title: 第九章-数据挖掘实战项目-14.电力负荷预测案例_定义电力负荷模型类
+    duration: 11:57
+  - index: 119
+    title: 第九章-数据挖掘实战项目-15.电力负荷预测案例_查看数据整体和各小时负荷分布
+    duration: 24:14
+  - index: 120
+    title: 第九章-数据挖掘实战项目-16.电力负荷案例_按照月份_假日可视化数据
+    duration: 14:07
+  - index: 121
+    title: 第九章-数据挖掘实战项目-17.电力负荷案例_特征工程_添加小时和月份字段
+    duration: 10:59
+  - index: 122
+    title: 第九章-数据挖掘实战项目-18.电力负荷案例_特征工程_添加上n小时(窗口字段)
+    duration: 11:42
+  - index: 123
+    title: 第九章-数据挖掘实战项目-19.电力负荷案例_特征工程_昨日同时刻负荷
+    duration: 18:22
+  - index: 124
+    title: 第九章-数据挖掘实战项目-20.电力负荷案例_模型训练_评估_保存
+    duration: 22:25
+  - index: 125
+    title: 第九章-数据挖掘实战项目-21.电力负荷案例_预测类代码实现
+    duration: 11:27
+  - index: 126
+    title: 第九章-数据挖掘实战项目-22.电力负荷案例_解析预测特征(上)
+    duration: 11:54
+  - index: 127
+    title: 第九章-数据挖掘实战项目-23.电力负荷案例_解析预测特征(下)
+    duration: 23:27
+  - index: 128
+    title: 第九章-数据挖掘实战项目-24.电力负荷案例_结果展示
+    duration: 22:34
+  - index: 129
+    title: 第九章-数据挖掘实战项目-25.电力负荷案例_扩展思路
+    duration: 13:09
+  - index: 130
+    title: 【课程完结】
+    duration: 11:29

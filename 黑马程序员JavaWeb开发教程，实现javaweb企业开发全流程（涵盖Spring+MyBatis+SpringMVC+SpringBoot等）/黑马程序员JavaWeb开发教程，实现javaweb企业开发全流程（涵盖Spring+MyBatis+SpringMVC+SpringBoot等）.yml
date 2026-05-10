@@ -1,0 +1,602 @@
+video_title: 黑马程序员JavaWeb开发教程，实现javaweb企业开发全流程（涵盖Spring+MyBatis+SpringMVC+SpringBoot等）
+playlist:
+  - index: 1
+    title: Web开发-导学课程
+    duration: 18:22
+  - index: 2
+    title: Day01-01. web开发-介绍
+    duration: 12:34
+  - index: 3
+    title: Day01-02. Web前端开发-课程安排
+    duration: 11:12
+  - index: 4
+    title: Day01-03. Web前端开发-HTML-快速入门
+    duration: 15:57
+  - index: 5
+    title: Day01-04. HTML-VSCode安装
+    duration: 08:33
+  - index: 6
+    title: Day01-05. HTML-新浪新闻-实现标题-排版
+    duration: 26:35
+  - index: 7
+    title: Day01-06. HTML-新浪新闻-实现标题-样式1
+    duration: 19:14
+  - index: 8
+    title: Day01-07. HTML-新浪新闻-实现标题-样式2
+    duration: 11:13
+  - index: 9
+    title: Day01-08. HTML-新浪新闻-实现标题-超链接
+    duration: 09:53
+  - index: 10
+    title: Day01-09. HTML-新浪新闻-实现正文-排版
+    duration: 16:18
+  - index: 11
+    title: Day01-10. HTML-新浪新闻-实现正文-布局
+    duration: 17:03
+  - index: 12
+    title: Day01-11. HTML-表格标签
+    duration: 06:05
+  - index: 13
+    title: Day01-12. HTML-表单标签
+    duration: 10:19
+  - index: 14
+    title: Day01-13. HTML-表单项标签
+    duration: 12:12
+  - index: 15
+    title: Day02-01. JS-介绍
+    duration: 07:32
+  - index: 16
+    title: Day02-02. JS-引入方式
+    duration: 05:02
+  - index: 17
+    title: Day02-03. JS-基础语法-书写语法
+    duration: 08:33
+  - index: 18
+    title: Day02-04. JS-基础语法-变量
+    duration: 10:07
+  - index: 19
+    title: Day02-05. JS-基础语法-数据类型&运算符
+    duration: 15:26
+  - index: 20
+    title: Day02-06. JS-函数
+    duration: 08:09
+  - index: 21
+    title: Day02-07. JS-对象-Array数组
+    duration: 19:16
+  - index: 22
+    title: Day02-08. JS-对象-String字符串
+    duration: 07:40
+  - index: 23
+    title: Day02-09. JS-对象-JSON
+    duration: 15:38
+  - index: 24
+    title: Day02-10. JS-对象-BOM
+    duration: 14:34
+  - index: 25
+    title: Day02-11. JS-对象-DOM
+    duration: 20:34
+  - index: 26
+    title: Day02-12. JS-对象-DOM案例
+    duration: 10:27
+  - index: 27
+    title: Day02-13. JS-事件-事件绑定&常见事件
+    duration: 14:46
+  - index: 28
+    title: Day02-14. JS-事件-案例
+    duration: 15:23
+  - index: 29
+    title: Day02-15. Vue-概述
+    duration: 13:43
+  - index: 30
+    title: Day02-16. Vue-指令-v-bind&v-model&v-on
+    duration: 14:33
+  - index: 31
+    title: Day02-17. Vue-指令-v-if&v-show&v-for
+    duration: 11:50
+  - index: 32
+    title: Day02-18. Vue-指令-案例
+    duration: 09:02
+  - index: 33
+    title: Day02-19. Vue-生命周期
+    duration: 07:01
+  - index: 34
+    title: Day03-01. Ajax-介绍
+    duration: 13:45
+  - index: 35
+    title: Day03-02. Ajax-Axios2
+    duration: 21:03
+  - index: 36
+    title: Day03-03. 前端工程化
+    duration: 20:57
+  - index: 37
+    title: Day03-04. 前端工程化-环境准备
+    duration: 13:07
+  - index: 38
+    title: Day03-05. 前端工程化-Vue项目
+    duration: 13:27
+  - index: 39
+    title: Day03-06. 前端工程化-Vue项目开发流程
+    duration: 11:42
+  - index: 40
+    title: Day03-07. Element-快速入门
+    duration: 12:49
+  - index: 41
+    title: Day03-08. Element-组件-Table表格
+    duration: 05:54
+  - index: 42
+    title: Day03-09. Element-组件-Pagination分页
+    duration: 08:31
+  - index: 43
+    title: Day03-10. Element-组件-Dialog对话框
+    duration: 05:29
+  - index: 44
+    title: Day03-11. Element-组件-Form表单
+    duration: 10:53
+  - index: 45
+    title: Day03-12. Element-案例-基本页面布局
+    duration: 15:16
+  - index: 46
+    title: Day03-13. Element-案例-页面组件实现
+    duration: 09:57
+  - index: 47
+    title: Day03-14. Element-案例-axios异步加载数据
+    duration: 09:24
+  - index: 48
+    title: Day03-15. vue路由
+    duration: 12:59
+  - index: 49
+    title: Day03-16. 打包部署
+    duration: 09:55
+  - index: 50
+    title: Day04-01. maven-课程介绍
+    duration: 11:28
+  - index: 51
+    title: Day04-02. maven-概述-介绍&安装
+    duration: 16:18
+  - index: 52
+    title: Day04-03. maven-idea集成-配置及创建maven项目
+    duration: 13:57
+  - index: 53
+    title: Day04-04. maven-idea集成-导入maven项目
+    duration: 03:10
+  - index: 54
+    title: Day04-05. maven-依赖管理-依赖配置
+    duration: 07:41
+  - index: 55
+    title: Day04-06. maven-依赖管理-依赖传递
+    duration: 08:34
+  - index: 56
+    title: Day04-07. maven-依赖管理-依赖范围
+    duration: 08:10
+  - index: 57
+    title: Day04-08. maven-依赖管理-生命周期
+    duration: 12:51
+  - index: 58
+    title: Day04-09. Web入门-课程介绍
+    duration: 07:17
+  - index: 59
+    title: Day04-10. Web入门-SpringBootWeb-快速入门
+    duration: 16:25
+  - index: 60
+    title: Day04-11. Web入门-HTTP协议-概述
+    duration: 09:39
+  - index: 61
+    title: Day04-12. Web入门-HTTP协议-请求协议
+    duration: 10:01
+  - index: 62
+    title: Day04-13. Web入门-HTTP协议-响应协议
+    duration: 16:12
+  - index: 63
+    title: Day04-14. Web入门-HTTP协议-协议解析
+    duration: 08:52
+  - index: 64
+    title: Day04-15. Web入门-Tomcat-介绍
+    duration: 08:30
+  - index: 65
+    title: Day04-16. Web入门-Tomcat-基本使用
+    duration: 12:17
+  - index: 66
+    title: Day04-17. Web入门-Tomcat-入门程序解析(内嵌tomcat)
+    duration: 09:33
+  - index: 67
+    title: Day05-01. 请求响应-概述
+    duration: 08:51
+  - index: 68
+    title: Day05-02. 请求响应-请求-postman工具
+    duration: 07:48
+  - index: 69
+    title: Day05-03. 请求响应-请求-简单参数&实体参数
+    duration: 21:48
+  - index: 70
+    title: Day05-04. 请求响应-请求-数组集合参数
+    duration: 06:41
+  - index: 71
+    title: Day05-05. 请求响应-请求-日期参数&json参数
+    duration: 09:05
+  - index: 72
+    title: Day05-06. 请求响应-请求-路径参数
+    duration: 09:47
+  - index: 73
+    title: Day05-07. 请求响应-响应-@ResponseBody&统一响应结果
+    duration: 15:44
+  - index: 74
+    title: Day05-08. 请求响应-响应-案例
+    duration: 18:55
+  - index: 75
+    title: Day05-09. 分层解耦-三层架构
+    duration: 14:29
+  - index: 76
+    title: Day05-10. 分层解耦-分层解耦(IOC-DI引入)
+    duration: 07:53
+  - index: 77
+    title: Day05-11. 分层解耦-IOC&DI-入门
+    duration: 07:25
+  - index: 78
+    title: Day05-12. 分层解耦-IOC&DI-IOC详解
+    duration: 12:31
+  - index: 79
+    title: Day05-13. 分层解耦-IOC&DI-DI详解
+    duration: 08:38
+  - index: 80
+    title: Day06-01. MySQL-课程介绍
+    duration: 12:35
+  - index: 81
+    title: Day06-02. MySQL-概述-安装配置
+    duration: 16:02
+  - index: 82
+    title: Day06-03. MySQL-概述-数据模型&SQL简介
+    duration: 14:13
+  - index: 83
+    title: Day06-04. MySQL-DDL-数据库操作
+    duration: 12:37
+  - index: 84
+    title: Day06-05. MySQL-DDL-图形化工具
+    duration: 11:40
+  - index: 85
+    title: Day06-06. MySQL-DDL-表结构操作-创建
+    duration: 20:04
+  - index: 86
+    title: Day06-07. MySQL-DDL-表结构操作-数据类型
+    duration: 15:19
+  - index: 87
+    title: Day06-08. MySQL-DDL-表结构操作-创建-案例
+    duration: 18:49
+  - index: 88
+    title: Day06-09. MySQL-DDL-表结构操作-查询&修改&删除
+    duration: 13:46
+  - index: 89
+    title: Day06-10. MySQL-DML-添加数据insert
+    duration: 12:22
+  - index: 90
+    title: Day06-11. MySQL-DML-修改数据update
+    duration: 05:53
+  - index: 91
+    title: Day06-12. MySQL-DML-删除数据delete
+    duration: 04:43
+  - index: 92
+    title: Day07-01. MySQL-DQL-基本查询
+    duration: 16:58
+  - index: 93
+    title: Day07-02. MySQL-DQL-条件查询
+    duration: 15:03
+  - index: 94
+    title: Day07-03. MySQL-DQL-聚合函数
+    duration: 08:19
+  - index: 95
+    title: Day07-04. MySQL-DQL-分组查询
+    duration: 07:55
+  - index: 96
+    title: Day07-05. MySQL-DQL-排序查询
+    duration: 05:50
+  - index: 97
+    title: Day07-06. MySQL-DQL-分页查询
+    duration: 07:48
+  - index: 98
+    title: Day07-07. MySQL-DQL-案例
+    duration: 24:00
+  - index: 99
+    title: Day07-08. MySQL-多表设计-一对多
+    duration: 10:01
+  - index: 100
+    title: Day07-09. MySQL-多表设计-一对多-外键
+    duration: 10:10
+  - index: 101
+    title: Day07-10. MySQL-多表设计-一对一&多对多
+    duration: 11:57
+  - index: 102
+    title: Day07-11. MySQL-多表设计-案例-关系分析
+    duration: 14:44
+  - index: 103
+    title: Day07-12. MySQL-多表设计-案例-表结构
+    duration: 25:44
+  - index: 104
+    title: Day08-01. MySQL-多表查询-概述
+    duration: 10:50
+  - index: 105
+    title: Day08-02. MySQL-多表查询-内连接
+    duration: 08:00
+  - index: 106
+    title: Day08-03. MySQL-多表查询-外连接
+    duration: 07:41
+  - index: 107
+    title: Day08-04. MySQL-多表查询-子查询(标量、列)
+    duration: 11:29
+  - index: 108
+    title: Day08-05. MySQL-多表查询-子查询(行、表)
+    duration: 08:26
+  - index: 109
+    title: Day08-06. MySQL-多表查询-案例1
+    duration: 14:57
+  - index: 110
+    title: Day08-07. MySQL-多表查询-案例2
+    duration: 13:56
+  - index: 111
+    title: Day08-08. MySQL-事务-介绍与操作
+    duration: 12:49
+  - index: 112
+    title: Day08-09. MySQL-事务-四大特性
+    duration: 03:43
+  - index: 113
+    title: Day08-10. MySQL-索引-介绍
+    duration: 16:43
+  - index: 114
+    title: Day08-11. MySQL-索引-结构
+    duration: 08:30
+  - index: 115
+    title: Day08-12. MySQL-索引-操作语法
+    duration: 06:31
+  - index: 116
+    title: Day08-13. Mybatis-入门-课程介绍
+    duration: 04:32
+  - index: 117
+    title: Day08-14. Mybatis-入门-快速入门程序
+    duration: 25:26
+  - index: 118
+    title: Day08-15. Mybatis-入门-配置SQL提示
+    duration: 05:17
+  - index: 119
+    title: Day08-16. Mybatis-入门-JDBC
+    duration: 12:05
+  - index: 120
+    title: Day08-17. Mybatis-入门-数据库连接池
+    duration: 11:27
+  - index: 121
+    title: Day08-18. Mybatis-入门-lombok工具包介绍
+    duration: 10:26
+  - index: 122
+    title: Day09-01. Mybatis-基础操作-环境准备
+    duration: 10:52
+  - index: 123
+    title: Day09-02. Mybatis-基础操作-删除
+    duration: 09:58
+  - index: 124
+    title: Day09-03. Mybatis-基础操作-删除(预编译SQL)
+    duration: 23:03
+  - index: 125
+    title: Day09-04. Mybatis-基础操作-新增
+    duration: 10:53
+  - index: 126
+    title: Day09-05. Mybatis-基础操作-新增(主键返回)
+    duration: 05:25
+  - index: 127
+    title: Day09-06. Mybatis-基础操作-更新
+    duration: 08:19
+  - index: 128
+    title: Day09-07. Mybatis-基础操作-查询(根据ID查询)
+    duration: 13:48
+  - index: 129
+    title: Day09-08. Mybatis-基础操作-查询(条件查询)
+    duration: 16:17
+  - index: 130
+    title: Day09-09. Mybatis-XML映射文件
+    duration: 19:31
+  - index: 131
+    title: Day09-10. Mybatis-动态SQL-if
+    duration: 13:03
+  - index: 132
+    title: Day09-11. Mybatis-动态SQL-if-案例
+    duration: 16:42
+  - index: 133
+    title: Day09-12. Mybatis-动态SQL-foreach
+    duration: 08:46
+  - index: 134
+    title: Day09-13. Mybatis-动态SQL-sql&include
+    duration: 06:42
+  - index: 135
+    title: Day10-01. 案例-准备工作
+    duration: 26:07
+  - index: 136
+    title: Day10-02. 案例-部门管理-查询
+    duration: 17:08
+  - index: 137
+    title: Day10-03. 案例-部门管理-前后端联调
+    duration: 07:03
+  - index: 138
+    title: Day10-04. 案例-部门管理-删除
+    duration: 10:29
+  - index: 139
+    title: Day10-05. 案例-部门管理-新增
+    duration: 13:35
+  - index: 140
+    title: Day10-06. 案例-员工管理-分页查询-分析
+    duration: 16:31
+  - index: 141
+    title: Day10-07. 案例-员工管理-分页查询-实现
+    duration: 13:11
+  - index: 142
+    title: Day10-08. 案例-员工管理-分页查询-PageHelper插件
+    duration: 13:49
+  - index: 143
+    title: Day10-09. 案例-员工管理-分页条件查询
+    duration: 21:25
+  - index: 144
+    title: Day10-10. 案例-员工管理-删除员工
+    duration: 12:01
+  - index: 145
+    title: Day11-01. 案例-员工管理-新增员工
+    duration: 14:35
+  - index: 146
+    title: Day11-02. 案例-文件上传-简介
+    duration: 21:56
+  - index: 147
+    title: Day11-03. 案例-文件上传-本地存储
+    duration: 24:25
+  - index: 148
+    title: Day11-04. 案例-文件上传-阿里云OSS-准备
+    duration: 12:11
+  - index: 149
+    title: Day11-05. 案例-文件上传-阿里云OSS-入门
+    duration: 14:31
+  - index: 150
+    title: Day11-06. 案例-文件上传-阿里云OSS-集成
+    duration: 16:29
+  - index: 151
+    title: Day11-07. 案例-修改员工-查询回显
+    duration: 07:54
+  - index: 152
+    title: Day11-08. 案例-修改员工-修改员工
+    duration: 15:16
+  - index: 153
+    title: Day11-09. 案例-配置文件-参数配置化
+    duration: 12:44
+  - index: 154
+    title: Day11-10. 案例-配置文件-yml配置文件
+    duration: 18:47
+  - index: 155
+    title: Day11-11. 案例-配置文件-@ConfigurationProperties
+    duration: 13:43
+  - index: 156
+    title: Day12-01. 基础登录功能
+    duration: 18:18
+  - index: 157
+    title: Day12-02. 登录校验-概述
+    duration: 09:23
+  - index: 158
+    title: Day12-03. 登录认证-登录校验-会话技术
+    duration: 08:20
+  - index: 159
+    title: Day12-04. 登录认证-登录校验-会话跟踪方案一
+    duration: 15:26
+  - index: 160
+    title: Day12-05. 登录认证-登录校验-会话跟踪方案二、三
+    duration: 14:32
+  - index: 161
+    title: Day12-06. 登录校验-JWT令牌-介绍
+    duration: 08:08
+  - index: 162
+    title: Day12-07. 登录校验-JWT令牌-生成和校验
+    duration: 16:28
+  - index: 163
+    title: Day12-08. 登录校验-JWT令牌-登录后下发令牌
+    duration: 13:27
+  - index: 164
+    title: Day12-09. 登录校验-Filter-入门
+    duration: 16:26
+  - index: 165
+    title: Day12-10. 登录校验-Filter-详解(执行流程-拦截路径)
+    duration: 09:54
+  - index: 166
+    title: Day12-11. 登录校验-Filter-详解(过滤器链)
+    duration: 08:43
+  - index: 167
+    title: Day12-12. 登录校验-Filter-登录校验过滤器
+    duration: 23:11
+  - index: 168
+    title: Day12-13. 登录校验-Interceptor-入门
+    duration: 12:11
+  - index: 169
+    title: Day12-14. 登录校验-Interceptor-详解
+    duration: 10:41
+  - index: 170
+    title: Day12-15. 登录校验-Interceptor-登录校验拦截器
+    duration: 07:00
+  - index: 171
+    title: Day12-16. 异常处理
+    duration: 13:04
+  - index: 172
+    title: Day13-01. 事务管理-事务回顾-spring事务管理
+    duration: 16:07
+  - index: 173
+    title: Day13-02. 事务管理-事务进阶-rollbackFor属性
+    duration: 06:52
+  - index: 174
+    title: Day13-03. 事务管理-事务进阶-propagation属性
+    duration: 16:16
+  - index: 175
+    title: Day13-04. AOP基础-快速入门
+    duration: 21:47
+  - index: 176
+    title: Day13-05. AOP基础-核心概念
+    duration: 09:55
+  - index: 177
+    title: Day13-06. AOP进阶-通知类型
+    duration: 21:03
+  - index: 178
+    title: Day13-07. AOP进阶-通知顺序
+    duration: 08:09
+  - index: 179
+    title: Day13-08. AOP进阶-切入点表达式-execution
+    duration: 23:24
+  - index: 180
+    title: Day13-09. AOP进阶-切入点表达式-@annotation
+    duration: 05:41
+  - index: 181
+    title: Day13-10. AOP进阶-连接点
+    duration: 10:25
+  - index: 182
+    title: Day13-11. AOP案例-记录操作日志
+    duration: 28:10
+  - index: 183
+    title: Day14-01. SpringBoot-配置优先级
+    duration: 14:26
+  - index: 184
+    title: Day14-02. bean的管理-bean的获取
+    duration: 07:55
+  - index: 185
+    title: Day14-03. bean的管理-bean的作用域
+    duration: 07:56
+  - index: 186
+    title: Day14-04. bean的管理-第三方bean
+    duration: 14:39
+  - index: 187
+    title: Day14-05. SpringBoot原理-起步依赖
+    duration: 06:29
+  - index: 188
+    title: Day14-06. SpringBoot原理-自动配置-概述
+    duration: 06:13
+  - index: 189
+    title: Day14-07. SpringBoot原理-自动配置-方案
+    duration: 17:30
+  - index: 190
+    title: Day14-08. SpringBoot原理-自动配置-原理分析-源码跟踪
+    duration: 16:27
+  - index: 191
+    title: Day14-09. SpringBoot原理-自动配置-原理分析-@Conditional
+    duration: 19:38
+  - index: 192
+    title: Day14-10. SpringBoot原理-自动配置-案例(自定义starter分析)
+    duration: 09:47
+  - index: 193
+    title: Day14-11. SpringBoot原理-自动配置-案例(自定义starter实现)
+    duration: 21:54
+  - index: 194
+    title: Day14-12. Web后端开发-总结
+    duration: 05:35
+  - index: 195
+    title: Day15-01. maven高级-分模块设计与开发
+    duration: 20:48
+  - index: 196
+    title: Day15-02. maven高级-继承与聚合-继承关系实现
+    duration: 21:42
+  - index: 197
+    title: Day15-03. maven高级-继承与聚合-版本锁定
+    duration: 17:29
+  - index: 198
+    title: Day15-04. maven高级-继承与聚合-聚合实现
+    duration: 11:09
+  - index: 199
+    title: Day15-05. maven高级-私服
+    duration: 26:26
+  - index: 200
+    title: Web开发-完结
+    duration: 05:10

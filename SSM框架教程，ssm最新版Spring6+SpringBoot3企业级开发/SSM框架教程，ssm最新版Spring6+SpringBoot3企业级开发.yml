@@ -1,0 +1,563 @@
+video_title: SSM框架教程，ssm最新版Spring6+SpringBoot3企业级开发
+playlist:
+  - index: 1
+    title: 001-全新SSM课程-开篇介绍
+    duration: 08:11
+  - index: 2
+    title: 002-maven-介绍和作用
+    duration: 17:16
+  - index: 3
+    title: 003-maven-安装和配置
+    duration: 11:49
+  - index: 4
+    title: 004-maven-项目定位属性
+    duration: 08:54
+  - index: 5
+    title: 005-maven-工程快速搭建
+    duration: 13:26
+  - index: 6
+    title: 006-maven-核心功能依赖管理
+    duration: 19:09
+  - index: 7
+    title: 007-maven-依赖传递和依赖冲突
+    duration: 13:13
+  - index: 8
+    title: 008-maven-依赖下载失败问题解决方案
+    duration: 08:05
+  - index: 9
+    title: 009-maven-构建动作扩展
+    duration: 29:36
+  - index: 10
+    title: 010-maven-继承特性理解
+    duration: 15:37
+  - index: 11
+    title: 011-maven-聚合关系实现和作用
+    duration: 05:00
+  - index: 12
+    title: 012-maven-实战检验
+    duration: 18:01
+  - index: 13
+    title: 013-maven-技术总结
+    duration: 05:15
+  - index: 14
+    title: 014-spring-框架概念理解
+    duration: 13:43
+  - index: 15
+    title: 015-spring-spring体系结构
+    duration: 10:05
+  - index: 16
+    title: 016-spring-ioc-组件和组件管理概念
+    duration: 12:57
+  - index: 17
+    title: 017-spring-ioc-核心容器理解
+    duration: 15:54
+  - index: 18
+    title: 018-spring-ioc-ioc和di理解
+    duration: 08:28
+  - index: 19
+    title: 019-spring-ioc-IoC实践基本步骤
+    duration: 10:41
+  - index: 20
+    title: 020-spring-ioc-基于xml的ioc的配置
+    duration: 26:41
+  - index: 21
+    title: 021-spring-ioc-基于xml的di配置
+    duration: 22:53
+  - index: 22
+    title: 022-spring-ioc-基于xml的ioc容器的创建
+    duration: 12:59
+  - index: 23
+    title: 023-spring-ioc-ioc容器的bean获取三种方式
+    duration: 10:53
+  - index: 24
+    title: 024-spring-ioc-扩展组件周期方法
+    duration: 16:05
+  - index: 25
+    title: 025-spring-ioc-扩展作用域配置
+    duration: 11:46
+  - index: 26
+    title: 026-spring-ioc-扩展factoryBean使用
+    duration: 24:33
+  - index: 27
+    title: 027-spring-ioc-三层架构组件管理介绍和jdbctemplate使用
+    duration: 32:03
+  - index: 28
+    title: 028-spring-ioc-三层架构组件管理实战
+    duration: 17:11
+  - index: 29
+    title: 029-spring-ioc-基于注解方式ioc配置
+    duration: 27:33
+  - index: 30
+    title: 030-spring-ioc-扩展周期方法和作用域注解
+    duration: 07:06
+  - index: 31
+    title: 031-spring-ioc-di注入注解语法
+    duration: 26:31
+  - index: 32
+    title: 032-spring-ioc-属性@Value注解
+    duration: 08:34
+  - index: 33
+    title: 033-spring-ioc-注解三层综合案例
+    duration: 22:54
+  - index: 34
+    title: 034-spring-ioc-配置类和完全注解开发介绍
+    duration: 12:14
+  - index: 35
+    title: 035-spring-ioc-@Bean注解使用
+    duration: 06:31
+  - index: 36
+    title: 036-spring-ioc-@Bean注解详解
+    duration: 11:02
+  - index: 37
+    title: 037-spring-ioc-@Import注解使用
+    duration: 03:24
+  - index: 38
+    title: 038-spring-ioc-配置类案例练习
+    duration: 11:11
+  - index: 39
+    title: 039-spring-ioc-三种配置方式总结
+    duration: 05:08
+  - index: 40
+    title: 040-spring-test-测试环境搭建
+    duration: 05:31
+  - index: 41
+    title: 041-spring-aop-场景复现和解决思路
+    duration: 06:45
+  - index: 42
+    title: 042-spring-aop-代理模式和静态代理
+    duration: 15:10
+  - index: 43
+    title: 043-spring-aop-动态代理模式
+    duration: 14:58
+  - index: 44
+    title: 044-spring-aop-面向切面编程思想
+    duration: 11:17
+  - index: 45
+    title: 045-spring-aop-aop8个核心名词理解
+    duration: 12:38
+  - index: 46
+    title: 046-spring-aop-aop思维以及aop框架和代理技术的关系
+    duration: 06:31
+  - index: 47
+    title: 047-spring-aop-annotation快速实现
+    duration: 28:04
+  - index: 48
+    title: 048-spring-aop-获取切点详细信息
+    duration: 13:24
+  - index: 49
+    title: 049-spring-aop-切点表达式语法
+    duration: 12:55
+  - index: 50
+    title: 050-spring-aop-统一切点管理
+    duration: 06:25
+  - index: 51
+    title: 051-spring-aop-环绕通知
+    duration: 07:36
+  - index: 52
+    title: 052-spring-aop-切面优先级设定
+    duration: 03:39
+  - index: 53
+    title: 053-spring-aop-cglib生效场景
+    duration: 02:30
+  - index: 54
+    title: 054-spring-aop-注解方式总结
+    duration: 04:05
+  - index: 55
+    title: 055-spring-aop-xml配置aop
+    duration: 08:57
+  - index: 56
+    title: 056-spring-aop-对组件管理影响和总结
+    duration: 05:44
+  - index: 57
+    title: 057-spring-tx-编程式和声明式事务理解
+    duration: 03:30
+  - index: 58
+    title: 058-spring-tx-事务管理器和原理
+    duration: 13:03
+  - index: 59
+    title: 059-spring-tx-基本程序搭建
+    duration: 11:00
+  - index: 60
+    title: 060-spring-tx-事务注解添加实践
+    duration: 05:48
+  - index: 61
+    title: 061-spring-tx-只读模式介绍和设置
+    duration: 04:26
+  - index: 62
+    title: 062-spring-tx-事务超时时间设置
+    duration: 04:36
+  - index: 63
+    title: 063-spring-tx-事务异常指定问题
+    duration: 10:06
+  - index: 64
+    title: 064-spring-tx-事务隔离级别设置
+    duration: 03:45
+  - index: 65
+    title: 065-spring-tx-事务传播行为
+    duration: 13:44
+  - index: 66
+    title: 066-spring-框架技术总结
+    duration: 05:42
+  - index: 67
+    title: 067-mybatis-介绍和对比
+    duration: 07:05
+  - index: 68
+    title: 068-mybatis-快速入门案例
+    duration: 25:16
+  - index: 69
+    title: 069-mybatis-ibatis方式和原理
+    duration: 20:06
+  - index: 70
+    title: 070-mybatis-mybatis方式的原理和实现
+    duration: 12:47
+  - index: 71
+    title: 071-mybatis-日志输出配置
+    duration: 15:02
+  - index: 72
+    title: 072-mybatis-取值符号#和$的区别
+    duration: 13:39
+  - index: 73
+    title: 073-mybatis-简单类型传入
+    duration: 05:36
+  - index: 74
+    title: 074-mybatis-单个实体对象传入
+    duration: 02:48
+  - index: 75
+    title: 075-mybatis-多个简单类型传入
+    duration: 06:40
+  - index: 76
+    title: 076-mybatis--map类型传入
+    duration: 03:50
+  - index: 77
+    title: 077-mybatis-单个简单类型和定义名别
+    duration: 20:00
+  - index: 78
+    title: 078-mybatis-单个实体类型输出
+    duration: 06:51
+  - index: 79
+    title: 079-mybatis-返回map数据类型
+    duration: 02:44
+  - index: 80
+    title: 080-mybatis-返回集合类型
+    duration: 05:37
+  - index: 81
+    title: 081-mybatis-自动提交事务和自增长主键回显
+    duration: 11:43
+  - index: 82
+    title: 082-mybatis-非自增长类型主键维护
+    duration: 12:32
+  - index: 83
+    title: 083-mybatis-自定义映射关系和resultMap初体验
+    duration: 09:09
+  - index: 84
+    title: 084-mybatis-单表的crud练习
+    duration: 18:18
+  - index: 85
+    title: 085-mybatis-多表映射需要我们做什么
+    duration: 06:38
+  - index: 86
+    title: 086-mybatis-多表实体类存储设计
+    duration: 09:29
+  - index: 87
+    title: 087-mybatis-对一查询实现
+    duration: 17:25
+  - index: 88
+    title: 088-mybatis-对多查询实现
+    duration: 09:48
+  - index: 89
+    title: 089-mybatis-多表查询总结
+    duration: 10:44
+  - index: 90
+    title: 090-mybatis-动态语句和whereif标签
+    duration: 15:54
+  - index: 91
+    title: 091-mybatis-set标签使用
+    duration: 04:55
+  - index: 92
+    title: 092-mybatis-trim标签讲解
+    duration: 03:22
+  - index: 93
+    title: 093-mybatis-choose标签
+    duration: 03:11
+  - index: 94
+    title: 094-mybatis-foreach批量操作
+    duration: 16:57
+  - index: 95
+    title: 095-mybatis-sql标签和总结
+    duration: 02:50
+  - index: 96
+    title: 096-mybatis-mapper按包批量扫描
+    duration: 09:55
+  - index: 97
+    title: 097-mybatis-插件机制和分页插件使用
+    duration: 16:35
+  - index: 98
+    title: 098-mybatis-orm介绍和逆向工程
+    duration: 21:30
+  - index: 99
+    title: 099-mybatis-总结
+    duration: 03:35
+  - index: 100
+    title: 100-springmvc-框架介绍
+    duration: 08:49
+  - index: 101
+    title: 101-springmvc-内部流程和核心组件
+    duration: 15:42
+  - index: 102
+    title: 102-springmvc-流程调用和体验
+    duration: 17:46
+  - index: 103
+    title: 103-springmvc-web容器初始化原理讲解
+    duration: 07:52
+  - index: 104
+    title: 104-springmvc-路径设置注解
+    duration: 14:32
+  - index: 105
+    title: 105-springmvc-对比json和param
+    duration: 04:27
+  - index: 106
+    title: 106-springmvc-param参数接受四种场景
+    duration: 25:47
+  - index: 107
+    title: 107-springmvc-路径参数接收
+    duration: 06:30
+  - index: 108
+    title: 108-springmvc-json数据接收
+    duration: 14:01
+  - index: 109
+    title: 109-springmvc-@EnableWebMvc注解原理
+    duration: 04:11
+  - index: 110
+    title: 110-springmvc-接收请求头和cookie
+    duration: 06:27
+  - index: 111
+    title: 111-springmvc-原生对象获取
+    duration: 05:00
+  - index: 112
+    title: 112-springmvc-共享域对象操作
+    duration: 08:13
+  - index: 113
+    title: 113-springmvc-参数接收总结
+    duration: 07:30
+  - index: 114
+    title: 114-springmvc-开发模式介绍和理解
+    duration: 14:35
+  - index: 115
+    title: 115-springmvc-快速返回逻辑视图
+    duration: 12:39
+  - index: 116
+    title: 116-springmvc-转发和重定向实现
+    duration: 09:34
+  - index: 117
+    title: 117-springmvc-返回json数据
+    duration: 10:34
+  - index: 118
+    title: 118-springmvc-静态资源处理
+    duration: 11:38
+  - index: 119
+    title: 119-springmvc-restful介绍和理解
+    duration: 11:36
+  - index: 120
+    title: 120-springmvc-restful特点和规范
+    duration: 12:25
+  - index: 121
+    title: 121-springmvc-restful实战路径设计和总结
+    duration: 12:13
+  - index: 122
+    title: 122-springmvc-restful代码实战和实现
+    duration: 08:38
+  - index: 123
+    title: 123-springmvc-全局异常处理
+    duration: 15:58
+  - index: 124
+    title: 124-springmvc-拦截器概念和基本使用
+    duration: 15:26
+  - index: 125
+    title: 125-springmvc-拦截器配置细节和源码分析
+    duration: 12:17
+  - index: 126
+    title: 126-springmvc-参数校验注解jsr303
+    duration: 22:32
+  - index: 127
+    title: 127-springmvc-总结
+    duration: 18:11
+  - index: 128
+    title: 128-ssm-什么是整合
+    duration: 02:17
+  - index: 129
+    title: 129-ssm-整合五问和理解
+    duration: 12:48
+  - index: 130
+    title: 130-ssm-springmvc层配置
+    duration: 12:41
+  - index: 131
+    title: 131-ssm-service和aop以及tx的配置
+    duration: 04:41
+  - index: 132
+    title: 132-ssm-mybatis整合配置方式1
+    duration: 23:21
+  - index: 133
+    title: 133-ssm-mybatis完全配置类整合方式2
+    duration: 05:50
+  - index: 134
+    title: 134-ssm-配置类初始化和访问测试
+    duration: 11:40
+  - index: 135
+    title: 135-ssm-前端程序搭建
+    duration: 09:40
+  - index: 136
+    title: 136-ssm-后台项目搭建和准备
+    duration: 10:01
+  - index: 137
+    title: 137-ssm-后台分页查询接口实现
+    duration: 10:19
+  - index: 138
+    title: 138-ssm-后台删除、添加、修改接口实现和postman测试
+    duration: 16:53
+  - index: 139
+    title: 139-ssm-前后端联调和跨域问题解决
+    duration: 10:49
+  - index: 140
+    title: 140-springboot-介绍和理解
+    duration: 08:13
+  - index: 141
+    title: 141-springboot-快速入门案例
+    duration: 07:38
+  - index: 142
+    title: 142-springboot-快速入门总结
+    duration: 12:55
+  - index: 143
+    title: 143-springboot-统一配置管理
+    duration: 08:38
+  - index: 144
+    title: 144-sprngboot-yaml配置介绍和使用
+    duration: 12:16
+  - index: 145
+    title: 145-springboot-批量配置文件读取
+    duration: 06:44
+  - index: 146
+    title: 146-springboot-多环境配置和激活
+    duration: 09:49
+  - index: 147
+    title: 147-springboot-springmvc的整合和配置
+    duration: 13:19
+  - index: 148
+    title: 148-springboot-druid连接池和兼容性处理
+    duration: 12:39
+  - index: 149
+    title: 149-springboot-mybatis整合和配置
+    duration: 12:10
+  - index: 150
+    title: 150-springboot-aop和tx整合和配置
+    duration: 08:02
+  - index: 151
+    title: 151-springboot-boot工程打包和快速部署命令
+    duration: 10:03
+  - index: 152
+    title: 152-mybatis-plus-概念介绍和快速入门
+    duration: 13:05
+  - index: 153
+    title: 153-mybatis-plus-基于baseMapper的curd增强
+    duration: 20:30
+  - index: 154
+    title: 154-mybatis-plus-基于ISevice的crud增强
+    duration: 09:46
+  - index: 155
+    title: 155-mybatis-plus-serice层增强方法介绍
+    duration: 09:58
+  - index: 156
+    title: 156-mybatis-plus-分页查询使用
+    duration: 09:29
+  - index: 157
+    title: 157-mybatis-plus-分页添加到自定义方法
+    duration: 06:52
+  - index: 158
+    title: 158-mybatis-plus-条件构造器和queryWrapper体验
+    duration: 08:39
+  - index: 159
+    title: 159-mybatis-plus-queryWrapper实战使用
+    duration: 16:28
+  - index: 160
+    title: 160-mybatis-plus-updateWrapper实战和使用
+    duration: 04:40
+  - index: 161
+    title: 161-mybatis-plus-lambdaWrapper实战和使用
+    duration: 09:22
+  - index: 162
+    title: 162-mybatis-plus-注解-@tablename注解
+    duration: 05:32
+  - index: 163
+    title: 163-mybatis-plus-注解-@TableId和主键策略分析
+    duration: 17:47
+  - index: 164
+    title: 164-mybatis-plus-注解-@TableFiled使用
+    duration: 01:15
+  - index: 165
+    title: 165-mybatis-plus-扩展-逻辑删除实现
+    duration: 10:23
+  - index: 166
+    title: 166-mybatis-plus-扩展-乐观锁的实现
+    duration: 13:57
+  - index: 167
+    title: 167-mybatis-plus-扩展-防止全表数据删除和更新
+    duration: 02:29
+  - index: 168
+    title: 168-mybatis-plus-代码生成-mybatisx逆向工程
+    duration: 06:21
+  - index: 169
+    title: 169-mybatis-plus-代码生成-mybatisx自动生成curd方法
+    duration: 02:47
+  - index: 170
+    title: 170-springboot实战-微头条项目介绍
+    duration: 03:52
+  - index: 171
+    title: 171-springboot实战-前端工程搭建和运行
+    duration: 01:37
+  - index: 172
+    title: 172-springboot实战-后端工程搭建和逆向工程
+    duration: 12:55
+  - index: 173
+    title: 173-springboot实战-jwt和token介绍和使用
+    duration: 13:20
+  - index: 174
+    title: 174-springboot实战-用户登录接口实现
+    duration: 14:02
+  - index: 175
+    title: 175-springboot实战-根据token获取用户接口实现
+    duration: 07:10
+  - index: 176
+    title: 176-springboot实战-检查账号是否可用接口实现
+    duration: 04:47
+  - index: 177
+    title: 177-springboot实战-用户注册接口实现
+    duration: 07:05
+  - index: 178
+    title: 178-springboot实战-首页类别接口实现
+    duration: 04:18
+  - index: 179
+    title: 179-springboot实战-首页分页头条接口实现
+    duration: 17:43
+  - index: 180
+    title: 180-springboot实战-首页详情查询接口实现
+    duration: 12:03
+  - index: 181
+    title: 181-springboot实战-只显示第一页问题调试
+    duration: 02:01
+  - index: 182
+    title: 182-springboot实战-登录检查接口实现
+    duration: 03:54
+  - index: 183
+    title: 183-springboot实战-头条发布和登录保护拦截器
+    duration: 17:57
+  - index: 184
+    title: 184-springboot实战-头条修改回显接口实现
+    duration: 03:48
+  - index: 185
+    title: 185-springboot实战-头条修改接口实现
+    duration: 05:51
+  - index: 186
+    title: 186-springboot实战-头条删除功能实现
+    duration: 03:03
+  - index: 187
+    title: 187-springboot实战-整体联调和测试
+    duration: 02:34

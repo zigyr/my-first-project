@@ -1,7 +1,7 @@
 import re
 import requests
 
-maps=open('e:\\code\\python\\脚本\\ctf\\flake_secret_key\\test.txt')
+maps=open('f:\\code_practice\\code\\python\\ctf\\flake_secret_key\\test.txt')
 list = maps.read().split('\\n') 
 for line in list:
     if 'rw' in line:

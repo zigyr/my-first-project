@@ -25,10 +25,10 @@ void test01(){
 
     //插入
     //第一个参数是位置迭代器，第二个是应插入元素
-    v1.insert(v1.begin(),100);
+    v1.insert(v1.begin(), 100);
     printVector(v1);
     //第一个参数是位置迭代器，第二个参数是第三个应插入元素的个数
-    v1.insert(v1.begin(),2,1000);
+    v1.insert(v1.begin(), 2, 1000);
     printVector(v1);
 
     //删除
