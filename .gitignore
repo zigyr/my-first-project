@@ -6,3 +6,5 @@ python/code/prohub/
 *.mov
 # 忽略所有的C/C++编译文件
 **/output
+# 忽略机器学习的那个大文件
+*.csv
